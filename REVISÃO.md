@@ -49,6 +49,8 @@
 - [x] Capítulos 113, 114, 115
 - [x] Capítulos 116, 117, 118
 - [x] Capítulo 119
+- [x] Capítulo 120, 121
+- [x] Capítulo 122
 
 **Análise dos Capítulos 13, 14 e 15:**
 - **Coerência de Personagens:** Elara transita de uma combatente exaurida para alguém que está disposta a negociar um pedaço de si mesma por Jaxon. Jaxon segue debilitado, e a introdução oficial do Dr. Vex é bem integrada à necessidade médica emergencial sem que ele ofusque o núcleo da equipe. A troca entre Vex e Elara e a intromissão do Deus-Máquina fluem naturalmente.
@@ -567,3 +569,13 @@ A trama atingiu um marco sombrio e extremamente cativante de "Noir Cyberpunk", d
 - **Coerência dos Personagens:** Ao longo dos 121 capítulos, o arco de Elara e Jaxon prova ser um triunfo de desconstrução. A narrativa não hesitou em causar danos permanentes (a perda da bioeletricidade de Elara e a mutilação cibernética de Jaxon), o que forjou sobreviventes autênticos cujas limitações moldam cada decisão. A interdependência deles no abismo de Nova Aether é conquistada com sofrimento e é a âncora emocional da trama.
 - **Necessidade de Novos Personagens:** O foco íntimo na dupla em oposição a entidades massivas, hostis e quase sem rosto (a Ordem do Silício, o Cartel da Água) ou monstros esquecidos nos esgotos, é um pilar da obra. Introduzir personagens de suporte fixos agora enfraqueceria o tom desolador e a letalidade do mundo. A ausência de ajuda externa é fundamental para a urgência da história.
 - **A História é Boa?** "O Legado de Silício" é um marco excelente no subgênero de "survival horror" Cyberpunk Noir. O comprometimento em manter as consequências físicas e emocionais das batalhas, retirando os elementos de poder fantasioso dos protagonistas, tornou a história infinitamente mais arriscada e imersiva. É uma jornada sombria, brutal e com um ritmo implacável, onde a sobrevivência crua é a maior vitória.
+
+**Análise do Capítulo 122:**
+- **Coerência de Personagens:** Elara consolida perfeitamente sua nova realidade sem a Sobrecarga Sináptica. Ela não tenta recriar seus antigos milagres tecnológicos, mas apoia-se em puro instinto de sobrevivência, táticas sujas e improvisação física. Proteger Jaxon, que agora está quase completamente incapacitado devido aos seus ferimentos (braço arrancado e danos pulmonares), demonstra uma inversão brutal de seus papéis iniciais: a mercenária divina agora luta na lama com um vergalhão enferrujado para salvar seu antigo guardião blindado. Jaxon, observando impotente, coroa esse arco com uma admiração cínica e silenciosa. A coerência é irrepreensível e poderosa.
+- **Necessidade de Novos Personagens:** O capítulo é estritamente um duelo pela sobrevivência nos esgotos mortos da cidade. O autômato corroído funciona como uma ameaça formidável do ambiente, simbolizando a própria história esquecida de Nova Aether. Inserir mais alguém no cenário quebraria a intimidade da cena e o impacto do combate desesperado de Elara no escuro. A ausência de novos aliados mantém o tom de "survival horror".
+- **Qualidade da História:** A tensão da luta é fantástica. A narrativa usa detalhes viscerais — a lama densa, o cheiro acre do óleo negro, o raspar metálico no tecido e a dor lancinante nos braços após o bloqueio. O fato de a resolução se dar pelo desequilíbrio e pela fragilidade da máquina velha contra a gravidade e astúcia humana (e não por um golpe sobre-humano) firma as bases do Cyberpunk Noir da obra. É cru, rápido e imersivo.
+
+**Revisão Global de Todos os Personagens na Obra (Capítulos 1 a 122):**
+- **Coerência dos Personagens:** O percurso completo de 122 capítulos solidificou a desconstrução final de Elara e Jaxon. Ao extirpar os implantes e habilidades fantásticas, a trama provou que a força dos personagens reside em sua perseverança obstinada e fragilidade humana, num mundo hiper-tecnológico que tenta esmagá-los. O arco emocional que os uniu através do lixo e da dor é autêntico, e ambos se mantêm firmes às próprias personalidades falhas.
+- **Necessidade de Novos Personagens:** O cerne narrativo de isolamento e resistência contra inimigos estruturais monstruosos é brilhante, provando que o confinamento e o número enxuto de coadjuvantes aumentam as apostas, em vez de diminuí-las.
+- **A História é Boa?** A evolução de intriga e poder para pura agonia biológica e terror no submundo fez de *O Legado de Silício* uma narrativa excelente, fechando seus conflitos de forma visceral e sombria. A vitória alcançada por sobrevivência pura tem um peso formidável no contexto Noir da obra.
