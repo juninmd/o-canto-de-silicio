@@ -274,3 +274,16 @@ Os antagonistas (A Ordem, e agora o Cartel da Água liderado por Silas) sempre d
 
 ### Necessidade de Novos Personagens
 *   Não foram adicionados novos personagens. O foco exclusivo em Elara e Jaxon aumenta o isolamento e acentua a tensão claustrofóbica imposta pela trama, perfeitamente de acordo com o tom Noir esperado.
+
+**Capítulo:** 122 (O Peso das Sombras e do Lodo)
+
+### Coerência dos Personagens
+*   **Elara:** Sua nova condição puramente "física" e a perda da sua bioeletricidade a forçam a depender instintivamente da furtividade e do planejamento. Ela não pode mais "explodir" os problemas, enfatizando seu desenvolvimento pragmático.
+*   **Jaxon:** O braço inútil e seus pulmões envenenados afetam diretamente sua eficiência como mercenário, deixando-o ainda mais vulnerável. No entanto, seus reflexos táticos (sacar a arma e se preparar para atirar, mesmo no escuro e à beira da morte) mantêm sua coerência de "sobrevivente até o fim".
+*   **Sanity Check:** O capítulo respeita as lesões do arco anterior. A queda não foi resolvida magicamente, e eles agora estão nas partes inundadas e esquecidas da cidade baixa, consistentes com a infraestrutura das Galerias de Escoamento descritas na lore. A introdução do mutante do esgoto explora a temática de "detritos vivos" e decadência sem introduzir IA superpoderosa, limitando a ameaça ao escopo da nova vulnerabilidade da dupla.
+
+### Qualidade da História
+*   **Atmosfera e Ritmo:** A lentidão do lodo espesso e o perigo que se move de forma invisível no escuro, guiado apenas pelo som, criam um clímax sensorial perfeitamente moldado ao gênero noir. O ritmo constrói o suspense através do desamparo forçado.
+
+### Necessidade de Novos Personagens
+*   Nenhum NPC inteligente adicionado. Apenas uma ameaça predatória bestial ("mutante do esgoto") criada como obstáculo reativo ao ambiente insalubre. O foco continua estrito na tensão entre Elara e Jaxon para a sobrevivência em condições precárias.
