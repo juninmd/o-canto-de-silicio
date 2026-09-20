@@ -27,3 +27,17 @@ with sync_playwright() as p:
 
     browser.close()
     print("Frontend tests passed for Chapter 68!")
+
+with sync_playwright() as p:
+    browser = p.chromium.launch()
+    page = browser.new_page()
+    page.goto('http://localhost:4173/public/capitulos/capitulo-122.html')
+
+    title = page.title()
+    assert "Ferrugem no Sangue" in title, f"Expected title to contain 'Ferrugem no Sangue', but got '{title}'"
+
+    page.goto('http://localhost:4173/')
+    assert "Capítulo 122" in page.content(), "Expected to find Chapter 122 link on home page"
+
+    browser.close()
+    print("Frontend tests passed for Chapter 122!")
