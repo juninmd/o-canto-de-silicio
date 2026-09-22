@@ -2,9 +2,7 @@
 
 ## Elara
 
-<p align="center">
-  <img src="/midia/elara.jpg" alt="Elara" width="600px" style="border-radius: 8px; margin: 16px 0;" />
-</p>
+![Elara](./static/midia/elara.jpg)
 
 *   **Função:** Protagonista / Sucateira
 *   **Idade:** 22 anos
