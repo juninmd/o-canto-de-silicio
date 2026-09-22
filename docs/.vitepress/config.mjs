@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/o-canto-de-silicio/',
   lang: 'pt-BR',
   title: 'O Canto de Silício',
   description: 'Um thriller sci-fi/fantasia pós-apocalíptico onde Elara busca reacender o mundo à sombra de deuses-máquina.',

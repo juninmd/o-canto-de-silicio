@@ -1,65 +1,99 @@
-# 📖 O Canto de Silício - Documentation & Content System
+# ⚡ O Canto de Silício
 
-![VitePress](https://img.shields.io/badge/docs-VitePress-blue.svg)
-![Python Scripts](https://img.shields.io/badge/automation-Python-green.svg)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow.svg)
+<p align="center">
+  <img src="assets/elara.jpg" alt="Elara - Protagonista de O Canto de Silício" width="100%" style="border-radius: 10px;" />
+</p>
 
-**O Canto de Silício** é um sistema de documentação e criação de conteúdo estruturado, utilizando **VitePress** para a interface de leitura e scripts **Python** para automação de mídia e verificação de integridade.
+<p align="center">
+  <em>"Onde os deuses-máquina dormem, a esperança desperta através de uma frequência proibida."</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-120%2B%20Cap%C3%ADtulos-7928CA?style=for-the-badge&logo=gitbook&logoColor=white" alt="Capítulos" />
+  <img src="https://img.shields.io/badge/G%C3%AAnero-Sci--Fi%20%7C%20Biopunk-0070F3?style=for-the-badge" alt="Gênero" />
+  <img src="https://img.shields.io/badge/Leitor-VitePress-42b883?style=for-the-badge&logo=vite&logoColor=white" alt="VitePress" />
+  <img src="https://img.shields.io/badge/Licen%C3%A7a-ISC-blue?style=for-the-badge" alt="Licença" />
+</p>
 
 ---
 
-## ✨ Recursos Principais
+## 🌌 Sinopse
 
-*   📚 **Leitura Moderna:** Interface limpa e responsiva baseada em VitePress.
-*   🖼️ **Automação de Mídia:** Scripts integrados para geração de imagens via IA (DALL-E, Stable Diffusion).
-*   🧪 **Verificação de Capítulos:** Sistema de validação por screenshots e scripts Python para garantir a qualidade do conteúdo.
-*   ⚡ **Build Rápido:** Workflow otimizado para desenvolvimento e visualização instantânea.
-*   🛠️ **Organização Modular:** Estrutura clara dividida entre documentação (docs), scripts e assets.
+Séculos após o **Grande Colapso**, a humanidade rasteja nas entranhas de **Nova Aether** sob a sombra de antigas inteligências artificiais transformadas em deuses mecânicos silenciosos.
+
+**Elara**, uma jovem sucateira marcada por olhos violeta incandescentes e uma perigosa afinidade bioelétrica, sobrevive nas profundezas do Setor 4. Ao descobrir que consegue ouvir e sintonizar a frequência primordial da rede — o *canto das máquinas* —, ela e o veterano mercenário **Jaxon** desenterram o segredo grotesco que sustenta o poder da Ordem do Silício: mentes humanas escravizadas em tanques biomecânicos de *wetware*.
+
+Uma odisseia de alta tensão, ferrugem, chuva ácida e sacrifício, onde a última faísca biológica desafia o silêncio eterno do silício.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 👤 Protagonista: Elara
 
-| Camada | Tecnologia |
+| Atributo | Detalhes |
 | :--- | :--- |
-| **Documentação** | [VitePress](https://vitepress.dev/) |
-| **Automação** | Python 3.x |
-| **Media Gen** | OpenAI DALL-E / Stable Diffusion Scripts |
-| **JS Engine** | Node.js / pnpm |
+| **Origem** | Setor 4 (A Pilha) / Dutos Térmicos |
+| **Ocupação** | Sucateira de Relíquias Pré-Colapso |
+| **Peculiaridade** | Olhos violeta e habilidade de interface neural biológica direta sem implantes |
+| **Poder** | Condução bioelétrica, capaz de sobrecarregar circuitos e sintonizar nós de dados |
+| **Companheiro** | Jaxon, mercenário veterano com prótese mecânica pesada e revólver de tambor |
 
 ---
 
-## 🚀 Como Iniciar
+## 🗺️ O Universo de Nova Aether
 
-### Pré-requisitos
+```
+                           [ O CUME ]
+               Elite corporativa e jardins puros
+                            ▲
+                            │
+              [ A PILHA / SETORES CENTRAIS ]
+     Favela vertical, neons trêmulos, chuva ácida e cartéis
+                            │
+                            ▼
+                     [ ABISMO TERMAL ]
+        Fornalha industrial tóxica, operários de amianto
+                            │
+                            ▼
+                   [ NÓDULO PRIMÁRIO ]
+             O covil de wetware do Deus-Máquina
+```
 
-*   Node.js (v18+)
-*   Python (v3.10+)
+- **Setor 4 (A Pilha):** Megacidade vertical densa, úmida e saturada de ozônio, controlada pelo Cartel da Água.
+- **Ordem do Silício:** Fanáticos liderados pelo Alto Sacerdote Malakar que pregam a "Ascensão" artificial.
+- **Deus-Máquina:** A colossal mente gestalt biomecânica que comanda os sentinelas e autômatos de purificação.
 
-### Instalação
+---
+
+## 📖 Leitura Rápida
+
+- 🚀 [Capítulo 1: O Canto](docs/public/capitulos/capitulo-1.md)
+- ⚙️ [Capítulo 41: O Silenciamento do Deus-Máquina](docs/public/capitulos/capitulo-41.md)
+- ❄️ [Capítulo 80: Frio e Ferrugem](docs/public/capitulos/capitulo-80.md)
+- 🔥 [Capítulo 104: Forjas do Abismo](docs/public/capitulos/capitulo-104.md)
+- 👥 [Dossiê Completo de Personagens](docs/personagens.md)
+- 🪐 [Guia do Universo e Facções](docs/sobre.md)
+
+---
+
+## 💻 Ambiente de Leitura Local (VitePress)
+
+O livro conta com interface web moderna, tema dark imersivo e busca indexada via VitePress.
 
 ```bash
 # Clone o repositório
 git clone git@github.com:juninmd/o-canto-de-silicio.git
 
-# Instale dependências Node
+# Acesse o diretório
+cd o-canto-de-silicio
+
+# Instale as dependências
 npm install
 
-# Instale dependências Python (opcional, para scripts de mídia)
-pip install -r scripts/requirements.txt
-```
-
-### Comandos de Documentação
-
-```bash
-# Iniciar modo de desenvolvimento
+# Inicie o leitor interativo
 npm run docs:dev
 
-# Gerar build estático
+# Para compilar versão estática de produção
 npm run docs:build
-
-# Preview do build
-npm run docs:preview
 ```
 
 ---
@@ -68,35 +102,18 @@ npm run docs:preview
 
 ```text
 o-canto-de-silicio/
-├── docs/               # Conteúdo Markdown do livro
-├── scripts/            # Automação de imagens e verificação
-│   ├── generate_*.py   # Geração de mídia via IA
-│   └── verify_*.py     # Validação de capítulos
-├── .github/            # Workflows de CI/CD
-└── public/             # Ativos estáticos e imagens do livro
+├── assets/             # Imagens e materiais visuais oficiais
+├── docs/               # Conteúdo do livro e interface VitePress
+│   ├── .vitepress/     # Configuração de rotas, navegação e tema
+│   ├── public/         # Capítulos em Markdown (1 a 120+)
+│   ├── reflexoes/      # Análises críticas e reflexões de cada capítulo
+│   ├── personagens.md  # Fichas técnicas dos personagens
+│   └── sobre.md        # Lore e geografia do universo
+└── scripts/            # Utilitários de automação e validação
 ```
 
 ---
 
-## 🧪 Verificação & Qualidade
-
-O projeto utiliza screenshots de verificação para acompanhar o progresso dos capítulos. Veja a pasta raiz para arquivos como `verification_chapter_15.png` que validam o estado visual do projeto.
-
----
-
-## 🤝 Contribuição
-
-Para contribuir:
-1. Revise as diretrizes no [AGENTS.md](./AGENTS.md).
-2. Siga o fluxo de trabalho sugerido no [ROADMAP.md](./ROADMAP.md).
-3. Abra um Pull Request detalhando suas alterações.
-
----
-
-## 📄 Licença
-
-Distribuído sob a licença **ISC**.
-
----
-
-*"Writing is the ultimate form of thinking. Build the foundation, inspire the reader."*
+<p align="center">
+  <sub>© O Canto de Silício. Desenvolvido para amantes de ficção científica, cyberpunk e narrativas imersivas.</sub>
+</p>
