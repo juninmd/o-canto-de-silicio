@@ -12,7 +12,9 @@
   <img src="https://img.shields.io/badge/Status-120%2B%20Cap%C3%ADtulos-7928CA?style=for-the-badge&logo=gitbook&logoColor=white" alt="Capítulos" />
   <img src="https://img.shields.io/badge/G%C3%AAnero-Sci--Fi%20%7C%20Biopunk-0070F3?style=for-the-badge" alt="Gênero" />
   <img src="https://img.shields.io/badge/Leitor-VitePress-42b883?style=for-the-badge&logo=vite&logoColor=white" alt="VitePress" />
-  <img src="https://img.shields.io/badge/Licen%C3%A7a-ISC-blue?style=for-the-badge" alt="Licença" />
+  <a href="https://juninmd.github.io/o-canto-de-silicio/">
+    <img src="https://img.shields.io/badge/📖%20Ler%20Online-GitHub%20Pages-2ea44f?style=for-the-badge" alt="Ler Online" />
+  </a>
 </p>
 
 ---
