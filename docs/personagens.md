@@ -1,4 +1,4 @@
-# Personagens de O Legado de Silício
+# Personagens de O Canto de Silício
 
 ## Elara
 

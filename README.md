@@ -1,10 +1,10 @@
-# 📖 Meu Livro 2 - Documentation & Content System
+# 📖 O Canto de Silício - Documentation & Content System
 
 ![VitePress](https://img.shields.io/badge/docs-VitePress-blue.svg)
 ![Python Scripts](https://img.shields.io/badge/automation-Python-green.svg)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow.svg)
 
-**Meu Livro 2** é um sistema de documentação e criação de conteúdo estruturado, utilizando **VitePress** para a interface de leitura e scripts **Python** para automação de mídia e verificação de integridade.
+**O Canto de Silício** é um sistema de documentação e criação de conteúdo estruturado, utilizando **VitePress** para a interface de leitura e scripts **Python** para automação de mídia e verificação de integridade.
 
 ---
 
@@ -40,7 +40,7 @@
 
 ```bash
 # Clone o repositório
-git clone git@github.com:juninmd/meu-livro-2.git
+git clone git@github.com:juninmd/o-canto-de-silicio.git
 
 # Instale dependências Node
 npm install
@@ -67,7 +67,7 @@ npm run docs:preview
 ## 📂 Estrutura do Projeto
 
 ```text
-meu-livro-2/
+o-canto-de-silicio/
 ├── docs/               # Conteúdo Markdown do livro
 ├── scripts/            # Automação de imagens e verificação
 │   ├── generate_*.py   # Geração de mídia via IA

@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'pt-BR',
-  title: 'O Legado de Silício',
+  title: 'O Canto de Silício',
   description: 'Um thriller sci-fi/fantasia pós-apocalíptico onde Elara busca reacender o mundo à sombra de deuses-máquina.',
   publicDir: 'static',
   themeConfig: {
@@ -310,7 +310,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/juninmd/meu-livro-2' }
+      { icon: 'github', link: 'https://github.com/juninmd/o-canto-de-silicio' }
     ]
   }
 })
