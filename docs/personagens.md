@@ -1,6 +1,8 @@
-# Personagens de O Legado de Silício
+# Personagens de O Canto de Silício
 
 ## Elara
+
+![Elara](./static/midia/elara.jpg)
 
 *   **Função:** Protagonista / Sucateira
 *   **Idade:** 22 anos
