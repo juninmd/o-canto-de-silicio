@@ -30,6 +30,9 @@ Séculos após o "Grande Colapso", a humanidade vive nas sombras de seus criador
 - [Sentinelas](/personagens#sentinelas): Unidade de elite da Ordem.
 
 ## O Mundo: Nova Aether
+
+![Nova Aether](./static/midia/nova_aether.jpg)
+
 O mundo é uma mistura de natureza retomando seu espaço e esqueletos de megacidades. Tempestades de poeira varrem as planícies, e as noites são iluminadas pelo brilho fraco de antigas redes de energia que ainda funcionam erraticamente.
 
 ## Sumário

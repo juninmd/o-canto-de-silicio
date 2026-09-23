@@ -2,6 +2,8 @@
 
 ## A Estação Orbital Éden
 
+![Estação Orbital Éden](./static/midia/estacao_eden.jpg)
+
 Construída no final do século XXI, a Estação Orbital Éden foi projetada como um refúgio temporário para a humanidade enquanto a Terra se recuperava das Catástrofes Solares. Séculos depois, tornou-se o lar permanente de milhões de almas, orbitando um planeta azul e silencioso que ninguém mais visita.
 
 A estação é dividida verticalmente em setores, refletindo a rígida hierarquia social:
