@@ -212,7 +212,9 @@ export default defineConfig({
           { text: "Capítulo 120: Queda Controlada", link: "/public/capitulos/capitulo-120" },
           { text: "Reflexão: Capítulo 120", link: "/reflexoes/reflexao-120" },
           { text: "Capítulo 121: Fundo do Poço", link: "/public/capitulos/capitulo-121" },
+          { text: "Capítulo 122: Carne contra Ferrugem", link: "/public/capitulos/capitulo-122" },
           { text: "Reflexão: Capítulo 121", link: "/reflexoes/reflexao-121" },
+          { text: "Reflexão: Capítulo 122", link: "/reflexoes/reflexao-122" },
           { text: 'Personagens', link: '/personagens' },
           { text: 'Sobre o Universo', link: '/sobre' }
         ]
