@@ -49,6 +49,7 @@
 - [x] Capítulos 113, 114, 115
 - [x] Capítulos 116, 117, 118
 - [x] Capítulo 119
+- [x] Capítulos 120, 121
 
 **Análise dos Capítulos 13, 14 e 15:**
 - **Coerência de Personagens:** Elara transita de uma combatente exaurida para alguém que está disposta a negociar um pedaço de si mesma por Jaxon. Jaxon segue debilitado, e a introdução oficial do Dr. Vex é bem integrada à necessidade médica emergencial sem que ele ofusque o núcleo da equipe. A troca entre Vex e Elara e a intromissão do Deus-Máquina fluem naturalmente.
@@ -548,6 +549,7 @@ A trama atingiu um marco sombrio e extremamente cativante de "Noir Cyberpunk", d
 - **Coerência dos Personagens:** A jornada total que culmina no capítulo 119 é uma aula formidável de Cyberpunk Noir. A evolução da narrativa tirou de Elara suas capacidades quase divinas de bioeletricidade, jogando-a na sujeira e na pura carne, enquanto Jaxon teve seus aprimoramentos cibernéticos implacavelmente arrancados de seu próprio corpo. Esse movimento narrativo consolidou os personagens em sua vulnerabilidade, e a co-dependência desenvolvida por eles baseia-se num pragmatismo doloroso e orgânico. Nunca quebraram a coerência, apenas afundaram de maneira condizente à brutalidade do mundo.
 - **Necessidade de Novos Personagens:** As engrenagens frias de Nova Aether — a Ordem do Silício, Silas do Cartel da Água, sentinelas desumanizados — fornecem, através de sua impessoalidade violenta, todo o antagonismo de que a trama necessita. Adicionar coadjuvantes que salvassem o dia agora esvaziaria o tom sombrio e de sobrevivência visceral no abismo que tem marcado os atos finais do núcleo.
 - **A História é Boa?** A obra *O Legado de Silício* atinge seu ápice de qualidade, evoluindo de forma notável das intrigas e conspirações para um cru "horror industrial de sobrevivência". Ao forçar a derrota sobre os corpos dos próprios personagens, a história atestou as raízes implacáveis de seu mundo, tornando-se mais cativante a cada respiração no escuro.
+
 **Análise do Capítulo 120:**
 - **Coerência de Personagens:** A brutalidade do ambiente destaca o pragmatismo e a vulnerabilidade dos personagens. Elara compensa a ausência de sua bioeletricidade assumindo a liderança com improvisos físicos que cobram um preço alto, rasgando as mãos no cabo de aço. Jaxon, embora severamente debilitado por conta de seu braço inútil e pulmões danificados, acompanha com o cinismo que lhe é característico. Nenhum dos dois recorre a resoluções mágicas; eles enfrentam as consequências brutais de seus limites orgânicos.
 - **Necessidade de Novos Personagens:** Adicionar novos personagens neste clímax asfixiante seria um equívoco fatal. O isolamento extremo no poço do elevador, lutando unicamente contra a gravidade e o avanço ardente do protocolo de purga, exige que a cena fique inteiramente focada no desespero claustrofóbico e na dependência mútua da dupla de protagonistas.
