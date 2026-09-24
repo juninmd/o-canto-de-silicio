@@ -2,9 +2,7 @@
 
 ## Elara
 
-<p align="center">
-  <img src="/midia/elara.jpg" alt="Elara" width="600px" style="border-radius: 8px; margin: 16px 0;" />
-</p>
+![Elara](./static/midia/elara.jpg)
 
 *   **Função:** Protagonista / Sucateira
 *   **Idade:** 22 anos
@@ -21,6 +19,8 @@
 
 ## Dr. Vex
 
+![Dr. Vex](./static/midia/dr_vex.jpg)
+
 *   **Função:** Coadjuvante / Ripperdoc (Médico Clandestino)
 *   **Localização:** Dutos Térmicos, Abaixo do Setor 4
 *   **Descrição:**
@@ -33,6 +33,8 @@
 
 ## Kaelen (O Exorcista)
 
+![Kaelen](./static/midia/kaelen.jpg)
+
 *   **Função:** Coadjuvante / Hacker ("Fantasma" da Rede)
 *   **Localização:** Mercado Negro do Setor 4 (A Pilha)
 *   **Descrição:**
@@ -44,6 +46,8 @@
 
 ## Alto Sacerdote Malakar
 
+![Alto Sacerdote Malakar](./static/midia/malakar.jpg)
+
 *   **Função:** Antagonista / Líder da Ordem do Silício
 *   **Afiliação:** Ordem do Silício
 *   **Descrição:**
@@ -54,6 +58,8 @@
     *   Capturar Elara para usar seu dom e despertar o **Deus-Máquina** adormecido.
 
 ## Jaxon
+
+![Jaxon](./static/midia/jaxon.jpg)
 
 *   **Função:** Coadjuvante / Mercenário
 *   **Idade:** 40 anos
@@ -69,6 +75,8 @@
 
 ## Silas (Líder do Cartel da Água)
 
+![Silas](./static/midia/silas.jpg)
+
 *   **Função:** Antagonista / Líder de Gangue
 *   **Afiliação:** Cartel da Água (Setor 4)
 *   **Descrição:**
@@ -79,6 +87,8 @@
     *   Manter o monopólio e o poder do seu Cartel. Vingança contra Elara e Jaxon por humilhá-lo e roubar os filtros Classe-A vitais.
 
 ## Sentinelas
+
+![Sentinelas](./static/midia/sentinela.jpg)
 
 *   **Função:** Unidade de Elite / Caçadores
 *   **Afiliação:** Ordem do Silício (Corrompidos)
@@ -91,6 +101,8 @@
     *   Cumprir a vontade da Ordem: localizar, purificar ou eliminar alvos designados. Agora, parecem agir com uma fúria selvagem, caçando incansavelmente pelas passarelas de manutenção.
 
 ## Ratos-Drones (Limpadores)
+
+![Ratos-Drones](./static/midia/ratos_drones.jpg)
 
 *   **Função:** Reciclagem / Segurança Automatizada
 *   **Afiliação:** Infraestrutura Antiga do Setor 7
@@ -109,6 +121,8 @@
 *   **Revelação (Cap. 5):** Malakar usa o Valkyr para esvaziar "recipientes" humanos. Os viciados são "falhas de upload" ou corpos rejeitados pelo sistema.
 
 ### Titã (Classe Mech de Guerra)
+
+![Titã de Guerra](./static/midia/tita.jpg)
 *   **Tipo:** Unidade de Cerco Pesada / Relíquia da Guerra das Corporações
 *   **Status:** Maioria inativa ou destruída.
 *   **Características:** Blindagem de titânio, canhões rotativos e sensores de calor. Alimentados por baterias nucleares de longa duração.
@@ -127,30 +141,72 @@
 *   **Revelação (Cap. 7):** A "Ascensão" não é uma transcendência digital, mas a escravização biológica. Cérebros humanos são removidos e mantidos vivos em tanques ("wetware") para servirem como processadores orgânicos para a rede da Ordem, existindo em um estado de agonia perpétua.
 
 ### Nódulo Primário
+
+![Nódulo Primário](./static/midia/nodulo_primario.jpg)
 *   **Definição:** Um centro de dados da era pré-colapso, rumores dizem conter backups da "internet antiga" ou até mesmo IAs sencientes.
 *   **Importância:** Localizado no Setor 7, foi o destino de Elara e Jaxon. Onde a Ordem do Silício esconde a infraestrutura de "wetware" — a prisão maciça de cérebros humanos que constrói o Deus-Máquina.
 *   **Estado Atual (Cap. 40):** O grupo finalmente penetrou o "Núcleo Central", um fosso imenso de temperatura absoluta e sem radiação. Onde antes pulsavam servidores, agora se encontra a massa orgânica e cibernética de milhares de mentes aprisionadas que compõem o Deus-Máquina.
 
 ### Deus-Máquina
+
+![Deus-Máquina](./static/midia/deus_maquina.jpg)
 *   **Definição:** A entidade suprema venerada pela Ordem.
 *   **Revelação (Cap. 8/40):** Não é uma IA benevolente, mas um supercomputador grotesco ("wetware") feito de carne biomecânica composto de centenas de mentes torturadas (colhidas pela Ascensão) cujo processamento algorítmico gera a inteligência da entidade. Um ser gestalt aprisionado no sofrimento bruto.
     *   **Estado Atual (Cap. 41):** Silenciado definitivamente. O supercomputador composto de "wetware" entrou em colapso catastrófico e teve seus milhares de tanques estilhaçados após Elara saturar suas conexões com toda sua bioeletricidade acumulada, matando a entidade.
 
 ### Setor 4 (A Pilha)
+
+![Setor 4](./static/midia/setor_4.jpg)
 *   **Definição:** Um aglomerado vertical de habitações precárias, mercados negros e clínicas ilegais. Possui também docas secas onde cartéis operam.
 *   **Atmosfera:** Quente, úmida e saturada de neon e poluição. O oposto absoluto do setor congelado abaixo. As docas cheiram a peixe podre e ozônio velho, com chuva ácida constante.
 *   **Habitantes:** Párias, criminosos, viciados em *stim* e aqueles que não podem pagar pela cidadania nos níveis superiores. Gangues como o Cartel da Água controlam recursos vitais.
 *   **Estado Atual (Cap. 103):** O ar superior d'A Pilha continua varrido pelos drones assassinos de Silas. Nas Docas Mortas, Elara e Jaxon escaparam com sucesso da chuva ácida, descendo através de um elevador de carga profunda.
 
 ### Abismo Termal (Complexo de Purificação)
+
+![Abismo Termal](./static/midia/abismo_termal.jpg)
 *   **Definição:** Uma fornalha colossal subterrânea e complexo industrial projetado para purgar os resíduos tóxicos da cidade.
 *   **Atmosfera:** Escaldante, opressiva. O ar cheira a enxofre e metal superaquecido, com vapor tóxico denso e visibilidade prejudicada pelo brilho incandescente. Rios de metal derretido cruzados por estreitas pontes de ferro.
 *   **Habitantes (Cap. 104):** Povoado por figuras retorcidas trajando uniformes de amianto e visores opacos ("técnicos" corrompidos ou operários descartados). O local opera sob domínio das lógicas fanáticas da Ordem do Silício. Eles empunham ganchos pneumáticos enferrujados e patrulham os níveis buscando "purgar as impurezas".
     *   **Estado Atual (Cap. 120):** O protocolo de purga térmica está em andamento, varrendo as salas de controle e dutos superiores com ondas de gás sulfúrico incandescente. O poço do elevador de serviço atua como uma chaminé vertical perigosa para os fugitivos, mas liga o inferno termal aos subníveis esquecidos d'A Pilha.
 
 ### Setor 5
+
+![Setor 5](./static/midia/setor_5.jpg)
 *   **Estado Atual (Cap. 51/78):** Sem eletricidade pela queda da rede central, mergulhado na escuridão, pontuado apenas por parcos neons e fogueiras químicas. Devido às temperaturas abaixo de zero da neve ácida, tornou-se um deserto de gelo letal.
 
 ### Scrapyard
+
+![Scrapyard](./static/midia/scrapyard.jpg)
 *   **Definição:** Mercado negro e favela nas bordas do Setor 5, formado por sucata tecnológica e cascos de veículos antigos. Um território sem lei controlado por gangues e necrófagos.
 *   **Estado Atual (Cap. 82):** Mantém um microclima fétido e aquecido por fogueiras químicas, opondo-se à chuva ácida. É uma "infecção" de tendas e barracas de cirurgias clandestinas, onde o ar recende a óleo lubrificante, ozônio, ferrugem e sangue exposto. Serve como refúgio marginal e armadilha letal para quem anda desarmado.
+
+
+### Dutos Térmicos e Subníveis Esquecidos
+
+![Dutos Térmicos e Subníveis](./static/midia/dutos_termicos.jpg)
+*   **Definição:** A rede subterrânea de escoamento e túneis industriais abandonados abaixo do Setor 4.
+*   **Atmosfera:** Labirinto úmido e asfixiante, gotejando efluentes químicos e condensação de vapor superaquecido.
+*   **Perigos:** Enxames de Ratos-Drones e água corrosiva nos subníveis esquecidos.
+
+## Ferrão (Enforcer do Cartel)
+
+![Ferrão](./static/midia/ferrao.jpg)
+
+*   **Função:** Antagonista Secundário / Executor do Cartel da Água
+*   **Afiliação:** Cartel da Água (Setor 4)
+*   **Descrição:**
+    *   Ciborgue violento com implantes subdermais e tatuagens de identificação do submundo.
+    *   Equipado com braçadeiras de choque de alta voltagem e lâminas retráteis de liga leve.
+    *   Persegue alvos implacavelmente nas vielas e docas clandestinas do Setor 4.
+
+## O Açougueiro de Neve
+
+![O Açougueiro de Neve](./static/midia/acougueiro_neve.jpg)
+
+*   **Função:** Ameaça / Predador Cibernético
+*   **Localização:** Ruínas Congeladas do Setor 5
+*   **Descrição:**
+    *   Figura colossal encapuzada em peles térmicas sintéticas e placas de sucata congeladas.
+    *   Usa máscara respiratória cadavérica e empunha uma serra óssea pneumática.
+    *   Espreita sobreviventes durante as nevascas ácidas extremas.
