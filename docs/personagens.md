@@ -67,7 +67,7 @@
     *   Um mercenário veterano, corpulento, com uma cicatriz profunda cruzando o rosto.
     *   Carrega um **rifle de plasma modificado** e tem um braço mecânico rústico.
     *   Cínico e pragmático, ele vê o mundo como um lugar onde apenas os fortes sobrevivem.
-    *   **Estado Atual (Cap. 121):** Sobreviveu à descida até a velha malha de trânsito, mas está quase incapacitado por seus ferimentos físicos e fuligem ácida nos pulmões. Apoia-se em Elara para caminhar pelos túneis inundados de lodo.
+    *   **Estado Atual (Cap. 122):** Enfrentando a Besta de Sucata na velha malha de trânsito, testando os limites de sua resistência enquanto lida com ferimentos gravíssimos.
 *   **Equipamento:**
     *   Roupas esfarrapadas. Pulmão cibernético completamente inoperante. O soquete do braço cibernético destruído está envolto em ataduras improvisadas da roupa de Elara. Armado com um revólver de tambor pesado (agora com pouca munição, após atirar nas aranhas e nos tanques).
 *   **Motivação:**
@@ -168,7 +168,12 @@
 *   **Definição:** Uma fornalha colossal subterrânea e complexo industrial projetado para purgar os resíduos tóxicos da cidade.
 *   **Atmosfera:** Escaldante, opressiva. O ar cheira a enxofre e metal superaquecido, com vapor tóxico denso e visibilidade prejudicada pelo brilho incandescente. Rios de metal derretido cruzados por estreitas pontes de ferro.
 *   **Habitantes (Cap. 104):** Povoado por figuras retorcidas trajando uniformes de amianto e visores opacos ("técnicos" corrompidos ou operários descartados). O local opera sob domínio das lógicas fanáticas da Ordem do Silício. Eles empunham ganchos pneumáticos enferrujados e patrulham os níveis buscando "purgar as impurezas".
-    *   **Estado Atual (Cap. 120):** O protocolo de purga térmica está em andamento, varrendo as salas de controle e dutos superiores com ondas de gás sulfúrico incandescente. O poço do elevador de serviço atua como uma chaminé vertical perigosa para os fugitivos, mas liga o inferno termal aos subníveis esquecidos d'A Pilha.
+    *   **Estado Atual (Cap. 122):** O protocolo de purga térmica está em andamento, varrendo as salas de controle e dutos superiores com ondas de gás sulfúrico incandescente. O poço do elevador de serviço atua como uma chaminé vertical perigosa para os fugitivos, mas liga o inferno termal aos subníveis esquecidos d'A Pilha.
+
+### Subníveis Esquecidos da Malha de Trânsito
+*   **Definição:** Antiga infraestrutura circular de tubos de trânsito abandonados há mais de meio século, localizados abaixo d'A Pilha. Serviu como lixeira orgânica e mecânica da cidade.
+*   **Atmosfera:** Fria, úmida e mofada, com chão submerso em água espessa e óleo negro. Cheiro de ozônio queimado, lodo químico e ferrugem.
+*   **Habitantes (Cap. 122):** O ecossistema desenvolveu predadores amálgamas como a 'Besta de Sucata', formada inteiramente de lixo industrial descartado da cidade alta, agora inativada.
 
 ### Setor 5
 
