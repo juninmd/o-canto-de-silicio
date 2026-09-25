@@ -569,6 +569,10 @@ A trama atingiu um marco sombrio e extremamente cativante de "Noir Cyberpunk", d
 - **A História é Boa?** "O Legado de Silício" é um marco excelente no subgênero de "survival horror" Cyberpunk Noir. O comprometimento em manter as consequências físicas e emocionais das batalhas, retirando os elementos de poder fantasioso dos protagonistas, tornou a história infinitamente mais arriscada e imersiva. É uma jornada sombria, brutal e com um ritmo implacável, onde a sobrevivência crua é a maior vitória.
 
 
+**Análise do Capítulo 122:**
+- **Coerência:** O capítulo mantém com sucesso a continuidade sobre a limitação de poderes da Elara, resolvendo o conflito não através da bioeletricidade previamente perdida (Cap 44), mas sim utilizando da astúcia física. Além disso, o cenário se conecta diretamente aos subníveis esquecidos para onde eles caíram no final do capítulo 121.
+- **Personagens:** O diálogo fortalece a dinâmica Jaxon/Elara baseada no respeito mútuo. A fragilidade física de Jaxon (perda do braço, ferimentos, exaustão) é mantida de forma orgânica, gerando tensão de sobrevivência.
+- **Lore:** A criatura fóssil (autômato corroído) funciona como um antagonista diegético que reforça o decaimento estrutural e o lixo histórico da 'Pilha', combinando perfeitamente com a descrição do Abismo Termal descendo aos níveis de infraestrutura velha e abandonada.
 ---
 
 # Conclusão da Revisão Global da Obra (Capítulos 1 a 121)
