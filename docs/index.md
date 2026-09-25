@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "O Legado de Silício"
+  name: "O Canto de Silício"
   text: "Onde os deuses-máquina dormem, a esperança desperta."
   tagline: "Uma jornada pós-apocalíptica de ficção científica e fantasia em um mundo retomado pela natureza."
   actions:
@@ -14,7 +14,7 @@ hero:
       link: /personagens
 ---
 
-# Sobre O Legado de Silício
+# Sobre O Canto de Silício
 
 **Gênero:** Ficção Científica / Fantasia Pós-Apocalíptica
 **Tom:** Atmosférico, Misterioso, Alta Tensão
@@ -30,6 +30,9 @@ Séculos após o "Grande Colapso", a humanidade vive nas sombras de seus criador
 - [Sentinelas](/personagens#sentinelas): Unidade de elite da Ordem.
 
 ## O Mundo: Nova Aether
+
+![Nova Aether](./static/midia/nova_aether.jpg)
+
 O mundo é uma mistura de natureza retomando seu espaço e esqueletos de megacidades. Tempestades de poeira varrem as planícies, e as noites são iluminadas pelo brilho fraco de antigas redes de energia que ainda funcionam erraticamente.
 
 ## Sumário
