@@ -1,17 +1,18 @@
 # Reflexão: Capítulo 122
 
-## Análise Crítica (Nota: 9.0/10)
+## Análise Crítica (Autoavaliação Técnica)
 
-*   **Ritmo (Pacing): 9.0** - A tensão foi mantida do início ao fim. O capítulo retoma imediatamente após a expectativa criada no capítulo 121 (a ameaça no escuro), desenrolando-se em uma cena de combate brutal e desesperada. O ritmo é implacável, refletindo a urgência da sobrevivência no submundo.
-*   **Diálogos: 9.0** - Curtos, ásperos e condizentes com o esgotamento dos personagens. A fala ranzinza de Jaxon oferecendo-se como isca e a resposta pragmática e protetora de Elara soam perfeitamente naturais, reforçando a ligação forjada no trauma sem recorrer ao melodrama.
-*   **Atmosfera: 9.0** - A "sujeira" do cyberpunk está presente em cada linha: lodo, ferrugem, fiação corroída, água ácida e um autômato antigo desgastado. A luta corpo-a-corpo sem o uso de poderes (já que Elara perdeu sua bioeletricidade) fundamenta a cena na crueza da carne contra o metal opressivo.
+*   **Ritmo (Pacing): 9/10**
+    A transição do suspense sugerido no final do Capítulo 121 para a ação claustrofóbica foi executada de forma imediata. O ritmo é tenso, mas sufocado, espelhando a condição precária de Elara e Jaxon, garantindo que o embate se sinta pesado e desesperador em vez de empolgante.
+*   **Diálogos: 9/10**
+    Os diálogos são mínimos, contidos pelo medo e pela exaustão. A interação curta sobre as balas reflete perfeitamente a escassez e o desgaste de ambos, não desperdiçando palavras.
+*   **Atmosfera: 10/10**
+    Muito suja e claustrofóbica. Detalhes como o "lodo químico", a "névoa ácida" e o "cheiro de ozônio queimado e óleo rançoso" ancoram a narrativa fortemente no cyberpunk noir. A ameaça ser um equipamento industrial corrompido aumenta a sensação de desolação e declínio tecnológico.
 
 ## Pontos Fortes e Fracos
 
-**Pontos Fortes:**
-*   **A Ação Física:** O combate destaca as limitações atuais dos protagonistas. Elara não pode mais resolver o conflito com um pulso bioelétrico, sendo forçada a se ferir, usar o ambiente (uma barra de aço, lama) e depender de improviso brutal. Isso consagra o tom de "survival horror".
-*   **Descrição Sensorial:** As descrições (o gosto de óleo e sangue, a ferrugem da máquina, os dentes da serra mastigando ferro) vendem o ambiente impiedoso, tornando o cenário tangível e hostil.
-*   **Consistência de Jaxon:** Ele tenta ajudar, disparando o revólver, mas seu impacto é minimizado pelo estado ferido, honrando as lesões sofridas no capítulo 100.
-
-**Pontos Fracos (Para revisão editorial):**
-*   **Dinâmica da Luta:** A conclusão do combate, com Elara enfiando a faca no pescoço do robô enquanto segura a barra, pode parecer ligeiramente apressada. Talvez em uma revisão, estender a sensação de peso e fadiga física nessa disputa de força eleve ainda mais o realismo do esforço humano frente à máquina.
+*   **Pontos Fortes:**
+    *   **Coerência:** O ressentimento da perda da Sobrecarga Sináptica serve para enraizar a personagem em sua vulnerabilidade contínua. Elara é obrigada a usar apenas táticas evasivas brutas e físicas contra um adversário formidável, o que é coerente com o tom estabelecido.
+    *   **Sensorialidade:** A descrição do ambiente — desde o cheiro do óleo até o frio da água turva — cria um forte contraste com o foco interior focado na fragilidade da carne e na ausência de tecnologia orgânica funcional, seguindo a diretriz "Show, Don't Tell".
+*   **Pontos Fracos:**
+    *   A natureza exata e as capacidades operacionais do amálgama mecânico (a máquina de reciclagem corrompida) não são exploradas, mas dado o contexto urgente, aprofundar demais poderia travar a ação. O próximo capítulo deve lidar com a resolução tática do encontro para manter o fôlego da narrativa.
