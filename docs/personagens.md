@@ -13,7 +13,7 @@
     *   Possui a habilidade única de interfacear mentalmente com tecnologias antigas sem a necessidade de implantes. Agora, consegue **projetar bioeletricidade** para forçar sistemas eletrônicos (Cap. 9) e **cauterizar ferimentos orgânicos** (Cap. 10).
     *   **Habilidade Especial:** **Sobrecarga Sináptica** — Originalmente permitia acelerar a percepção do tempo e reagir a ameaças com precisão sobre-humana. No entanto, após o embate final, seu poder bioelétrico foi quase inteiramente extinto ("queimado").
     *   Seus poderes bioelétricos criavam uma ponte involuntária com o Deus-Máquina, mas essa conexão foi cortada de forma permanente.
-    *   **Estado Atual (Cap. 121):** Atingiu o fundo do poço do elevador na antiga malha de trânsito subterrânea. Continua desprovida de seus poderes, ajudando a arrastar um Jaxon gravemente ferido através da água lamacenta e química dos subníveis esquecidos, onde uma nova ameaça metálica espreita.
+    *   **Estado Atual (Cap. 122):** Sobrevivendo sem seus poderes bioelétricos (perdidos no Capítulo 44) nos subníveis esquecidos d'A Pilha. Ela assumiu a vanguarda protetora, compensando a ausência de sua Sobrecarga Sináptica com brutalidade física e improvisação, combatendo com sucesso um autômato enferrujado nas águas fétidas com um tubo de pressão para proteger Jaxon.
 *   **Motivação:**
     *   Inicialmente encontrar a "Fonte Primordial", que agora se revela uma lenda ilusória. Sua motivação central agora é pura e simplesmente a sobrevivência em uma Nova Aether desestabilizada e perigosa após a queda do núcleo da Ordem.
 
@@ -67,7 +67,7 @@
     *   Um mercenário veterano, corpulento, com uma cicatriz profunda cruzando o rosto.
     *   Carrega um **rifle de plasma modificado** e tem um braço mecânico rústico.
     *   Cínico e pragmático, ele vê o mundo como um lugar onde apenas os fortes sobrevivem.
-    *   **Estado Atual (Cap. 121):** Sobreviveu à descida até a velha malha de trânsito, mas está quase incapacitado por seus ferimentos físicos e fuligem ácida nos pulmões. Apoia-se em Elara para caminhar pelos túneis inundados de lodo.
+    *   **Estado Atual (Cap. 122):** Gravemente ferido e mutilado (perdeu o braço cibernético no Capítulo 100). Quase incapacitado por seus ferimentos e exaustão, dependeu da intervenção brutal e desesperada de Elara para sobreviver ao ataque de um autômato de manutenção nos túneis inundados.
 *   **Equipamento:**
     *   Roupas esfarrapadas. Pulmão cibernético completamente inoperante. O soquete do braço cibernético destruído está envolto em ataduras improvisadas da roupa de Elara. Armado com um revólver de tambor pesado (agora com pouca munição, após atirar nas aranhas e nos tanques).
 *   **Motivação:**
@@ -86,9 +86,9 @@
 *   **Motivação:**
     *   Manter o monopólio e o poder do seu Cartel. Vingança contra Elara e Jaxon por humilhá-lo e roubar os filtros Classe-A vitais.
 
-## Sentinelas
+## Sentinels
 
-![Sentinelas](./static/midia/sentinela.jpg)
+![Sentinels](./static/midia/sentinela.jpg)
 
 *   **Função:** Unidade de Elite / Caçadores
 *   **Afiliação:** Ordem do Silício (Corrompidos)
@@ -170,6 +170,18 @@
 *   **Habitantes (Cap. 104):** Povoado por figuras retorcidas trajando uniformes de amianto e visores opacos ("técnicos" corrompidos ou operários descartados). O local opera sob domínio das lógicas fanáticas da Ordem do Silício. Eles empunham ganchos pneumáticos enferrujados e patrulham os níveis buscando "purgar as impurezas".
     *   **Estado Atual (Cap. 120):** O protocolo de purga térmica está em andamento, varrendo as salas de controle e dutos superiores com ondas de gás sulfúrico incandescente. O poço do elevador de serviço atua como uma chaminé vertical perigosa para os fugitivos, mas liga o inferno termal aos subníveis esquecidos d'A Pilha.
 
+### Dutos Térmicos e Subníveis Esquecidos
+
+![Dutos Térmicos e Subníveis](./static/midia/dutos_termicos.jpg)
+*   **Definição:** A rede subterrânea de escoamento e túneis industriais abandonados abaixo do Setor 4.
+*   **Atmosfera:** Labirinto úmido e asfixiante, gotejando efluentes químicos e condensação de vapor superaquecido.
+*   **Perigos:** Enxames de Ratos-Drones e água corrosiva nos subníveis esquecidos.
+
+### Subníveis Esquecidos da Malha de Trânsito
+*   **Definição:** A lixeira da cidade baixa e infraestrutura abandonada há meio século, localizada abaixo do Abismo Termal.
+*   **Atmosfera:** Escura, fria e úmida, com cheiro de lodo químico, metal esquecido e água negra coberta de óleo.
+*   **Habitantes (Cap. 122):** Povoado por abominações mecânicas mortas, como gigantescos autômatos de manutenção de ferro fundido corrompidos e hostis que operam sob lógicas obsoletas e atacam intrusos.
+
 ### Setor 5
 
 ![Setor 5](./static/midia/setor_5.jpg)
@@ -180,14 +192,6 @@
 ![Scrapyard](./static/midia/scrapyard.jpg)
 *   **Definição:** Mercado negro e favela nas bordas do Setor 5, formado por sucata tecnológica e cascos de veículos antigos. Um território sem lei controlado por gangues e necrófagos.
 *   **Estado Atual (Cap. 82):** Mantém um microclima fétido e aquecido por fogueiras químicas, opondo-se à chuva ácida. É uma "infecção" de tendas e barracas de cirurgias clandestinas, onde o ar recende a óleo lubrificante, ozônio, ferrugem e sangue exposto. Serve como refúgio marginal e armadilha letal para quem anda desarmado.
-
-
-### Dutos Térmicos e Subníveis Esquecidos
-
-![Dutos Térmicos e Subníveis](./static/midia/dutos_termicos.jpg)
-*   **Definição:** A rede subterrânea de escoamento e túneis industriais abandonados abaixo do Setor 4.
-*   **Atmosfera:** Labirinto úmido e asfixiante, gotejando efluentes químicos e condensação de vapor superaquecido.
-*   **Perigos:** Enxames de Ratos-Drones e água corrosiva nos subníveis esquecidos.
 
 ## Ferrão (Enforcer do Cartel)
 
