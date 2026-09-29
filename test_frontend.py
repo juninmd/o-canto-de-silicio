@@ -34,7 +34,7 @@ with sync_playwright() as p:
     page.goto('http://localhost:4173/public/capitulos/capitulo-122.html')
 
     title = page.title()
-    assert "O Peso das Sombras e do Lodo" in title, f"Expected title to contain 'O Peso das Sombras e do Lodo', but got '{title}'"
+    assert "Sangue, Lodo e Ferrugem" in title, f"Expected title to contain 'Sangue, Lodo e Ferrugem', but got '{title}'"
 
     page.goto('http://localhost:4173/')
     assert "Capítulo 122" in page.content(), "Expected to find Chapter 122 link on home page"

@@ -1,30 +1,54 @@
 ---
-title: "Capítulo 122: O Peso das Sombras e do Lodo"
+title: "Capítulo 122: Sangue, Lodo e Ferrugem"
 data: 2042-12-21
 localização: Subníveis Esquecidos da Malha de Trânsito, Abaixo d'A Pilha
-personagens: [Elara, Jaxon]
+personagens: [Elara, Jaxon, Autômato Enferrujado]
 ---
 
-O rangido reverberou novamente, desta vez mais próximo. A lanterna moribunda de Jaxon piscava de forma caótica, lançando sombras longas e distorcidas que dançavam na superfície negra do lodo. O fedor de água estagnada e ozônio morto empapava o ar, tornando cada respiração um esforço pesado.
+O silêncio do Fundo do Poço era diferente. Não era a ausência de som, mas a expectativa aterradora de uma violência iminente. O som de raspagem metálica tornou-se mais rítmico, ecoando pela vastidão submersa do túnel. Cada passo que dávamos na água negra parecia convidar a escuridão a se fechar ao nosso redor.
 
-Apertei meu controle sobre Jaxon, sentindo o tremor de seus músculos sob a jaqueta ensanguentada. O peso do seu corpo arruinado ancorava meus passos lentos na água espessa. Cada centímetro que avançávamos era uma vitória pírrica contra o esgotamento total.
+Jaxon engasgou, tropeçando. O peso de seu corpo cedeu quase por completo sobre mim, e meus joelhos protestaram sob o esforço duplo.
 
-— Apaga a luz. — Jaxon sibilou, sua voz falhando. Ele tossiu, um som gutural acompanhado pelo resfôlego das bolhas de sangue e fuligem estourando nos cantos dos lábios.
+— Deixa pra lá... — ele rosnou, o hálito exalando o odor cáustico da purga térmica. Seu braço cibernético estava inerte, um pedaço morto de metal pendendo do que restava de seu ombro. — Continua. Eu atraso o que quer que seja essa merda.
 
-Eu não discuti. Meu coração batia em um ritmo insano, o instinto de sobrevivência preenchendo o vazio frio deixado pela minha antiga bioeletricidade. Eu era apenas carne e osso agora; vulnerável à escuridão que parecia viva e expectante. Alcancei o ombro de Jaxon e desliguei o interruptor manual da sua lanterna claudicante.
+— Cala a boca, Jaxon. Não descemos até o inferno pra eu te deixar no primeiro poço de lama. — Respondi, apertando meu aperto ao redor de sua cintura, embora minhas palmas sangrassem dentro das luvas esfarrapadas.
 
-O mundo sumiu, devorado por um manto de breu denso e claustrofóbico. A única luz restante era o reflexo distante e fraco das chispas de purga quilômetros acima.
+Mas a sombra se materializou antes que pudéssemos avançar.
 
-Então, no escuro, ouvimos com mais clareza.
+A luz vacilante da lanterna de ombro de Jaxon capturou uma silhueta grotesca emergindo da penumbra. Não era um Sentinela da Ordem, liso e letal. Era uma aberração esquecida. Um autômato da velha guerra das corporações, sua blindagem corroída pela água ácida e revestida de lodo tóxico. Suas juntas guinchavam com a ferrugem, e seus sensores ópticos piscavam em um amarelo pálido e errático, como um olho morto tentando focar no abismo.
 
-*Clanc. Splash. Clanc. Splash.*
+Ele não precisava de elegância. Era uma massa de metal projetada para triturar carne.
 
-Um ritmo pesado e arrastado ecoava pelos túneis engolidos pelo lodo. Algo massivo se movia pela água contaminada. Eu podia sentir as pequenas ondulações batendo contra as minhas botas. Não era um Sentinela; o padrão de movimento era caótico, puramente predatório, carente da precisão estéril dos construtos da Ordem.
+*Alvo biológico detectado*, uma voz sintetizada, quase inaudível sob a estática, rasgou o silêncio.
 
-Jaxon tensionou. Mesmo arruinado, seus instintos de mercenário permaneciam. Ele tateou a escuridão, sacando o revólver pesado com a mão esquerda tremente. O som do cão da arma sendo engatilhado cortou o ar abafado com a brutalidade de um trovão.
+O autômato investiu. A água espirrou em ondas grossas quando ele avançou, levantando um braço que terminava não em uma mão, mas em uma serra circular gasta, girando com um ganido estridente de engrenagens velhas.
 
-— Guarde a munição, Jaxon. Não sabemos o que é isso, mas você mal consegue segurar a arma direito — sussurrei, puxando-o para trás, em direção à margem elevada do túnel, onde restos desmoronados da velha infraestrutura formavam um barranco escorregadio.
+Eu soltei Jaxon, empurrando-o para a proteção relativa da parede curva do túnel, e saquei meu canivete de combate. Antes, eu teria apenas estendido as mãos, deixado a Sobrecarga Sináptica fritar os circuitos antiquados da máquina em um piscar de olhos. Agora, o vazio no meu peito era um lembrete cruel: eu não era mais uma anomalia elétrica. Eu era apenas carne, suor e desespero.
 
-Nós nos encolhemos atrás de uma viga torcida de plastiaço, a lama impregnando nossas roupas. O som se aproximava, revelando uma massa amorfa e pálida que emergiu da escuridão parcial, capturando o pálido reflexo alaranjado que vinha de cima. Era um mutante do esgoto, uma besta encurvada e gigantesca, suas escamas refletindo óleo, cega e guiada pelo som de nossas respirações irregulares. O Fundo do Poço não perdoava fraquezas; aqui, a carne morta da cidade criava seus próprios algozes.
+A máquina desferiu um golpe descendente. Joguei-me de lado, o som rasgante da serra cortando o ar a centímetros do meu rosto. A lâmina atingiu o lodo e a rocha sob a água, lançando uma chuva de faíscas sujas e óleo negro.
 
-A respiração de Jaxon era um chiado constante e perigoso, ecoando pelas paredes da câmara. Eu apertei minha mão sobre o peito dele, sentindo o batimento fraco, tentando, instintivamente, passar uma energia que eu não tinha mais. Ficar no escuro, esperando o inevitável, era nossa única esperança macabra contra as presas do abismo.
+Minhas botas escorregaram na lama, mas usei o impulso para rolar, levantando-me no flanco exposto do autômato. Cravei o canivete em uma de suas juntas articuladas, visando a fiação corroída por trás do joelho. A lâmina entrou com dificuldade, raspando contra o metal reforçado.
+
+A máquina não sentiu dor. Girou o torso rudimentar, e a parte plana de seu braço cego me atingiu nas costelas. O impacto me lançou pelo ar.
+
+Caí na água negra, o ar expulso dos meus pulmões. O gosto de óleo velho, sangue e lodo químico invadiu minha boca. A dor irradiou do meu lado — costelas rachadas, no mínimo.
+
+O autômato ergueu a serra, seus sensores cravados em mim.
+
+Ouvi o estrondo ensurdecedor do revólver de Jaxon. Uma, duas vezes. Os disparos ecoaram como trovões no túnel. As balas atingiram a couraça corroída da máquina, arrancando pedaços de ferrugem, mas a blindagem pesada segurou o impacto. Jaxon caiu de joelhos com o coice, gemendo enquanto a ferida em seu ombro sangrava de novo.
+
+A máquina ignorou os tiros, abaixando a serra em minha direção.
+
+Movida por pura adrenalina, agarrei uma grossa barra de aço enferrujado que repousava no fundo do lodo, provavelmente um pedaço caído dos trilhos magnéticos. Levantei-a justo quando a lâmina desceu.
+
+O metal chocou contra a serra. O barulho foi indescritível — um guincho de dor mecânica enquanto os dentes da lâmina mastigavam o cano de ferro, faíscas chovendo sobre o meu rosto. A força da máquina era esmagadora, empurrando a barra, e consequentemente meus braços, gradualmente contra o meu pescoço.
+
+Senti a fiação exposta do pescoço do autômato quando sua cabeça inclinou para forçar mais peso. Com a mão esquerda segurando desesperadamente a barra trêmula contra a serra, soltei a direita e tateei no lodo até encontrar o meu canivete caído.
+
+Grunhindo, lutei contra o esmagamento iminente e ergui a lâmina, cravando-a profundamente no vão de articulação do pescoço do monstro. Girei a faca, cortando a fiação grossa e destruindo a unidade matriz que emitia o pálido brilho amarelo.
+
+Uma convulsão estática percorreu o chassi colossal. A serra desacelerou, perdendo a força centrífuga, e a máquina desabou sobre si mesma com um suspiro hidráulico profundo.
+
+Empurrei a carcaça morta de lado, ofegante. Meu corpo inteiro doía. Fiquei de pé, trêmula, e olhei para Jaxon. Ele ainda empunhava o revólver fumegante, pálido como a morte.
+
+Sobrevivemos. Apenas por enquanto.
