@@ -1,17 +1,25 @@
 # Reflexão: Capítulo 122
 
-## Análise Crítica (Nota: 9.0/10)
+## Análise Crítica (Notas Técnicas)
 
-*   **Ritmo (Pacing): 9.0** - A tensão foi mantida do início ao fim. O capítulo retoma imediatamente após a expectativa criada no capítulo 121 (a ameaça no escuro), desenrolando-se em uma cena de combate brutal e desesperada. O ritmo é implacável, refletindo a urgência da sobrevivência no submundo.
-*   **Diálogos: 9.0** - Curtos, ásperos e condizentes com o esgotamento dos personagens. A fala ranzinza de Jaxon oferecendo-se como isca e a resposta pragmática e protetora de Elara soam perfeitamente naturais, reforçando a ligação forjada no trauma sem recorrer ao melodrama.
-*   **Atmosfera: 9.0** - A "sujeira" do cyberpunk está presente em cada linha: lodo, ferrugem, fiação corroída, água ácida e um autômato antigo desgastado. A luta corpo-a-corpo sem o uso de poderes (já que Elara perdeu sua bioeletricidade) fundamenta a cena na crueza da carne contra o metal opressivo.
+**Ritmo (Pacing): 9/10**
+A tensão é construída de maneira orgânica a partir do silêncio e da escuridão absoluta do poço. O conflito com o autômato ocorre rapidamente, refletindo a natureza crua e brutal do combate quando se está exausto. O clímax do tiro do Jaxon entrega o alívio que pontua a cena.
+
+**Diálogos: 9/10**
+Escassos e urgentes, como devem ser em um cenário de sobrevivência pura. As falas curtas e entre dentes demonstram não só o perigo iminente como a exaustão física dos personagens. A última fala do Jaxon adiciona o peso de sacrifício da sua última munição de forma verossímil.
+
+**Atmosfera: 10/10**
+O ambiente é opressivo: fungos bioluminescentes, lodo escuro, cheiro de ferrugem. O cenário noir cyberpunk abandona o brilho superficial de neon para focar na sujeira estrutural. O autômato oxidado cria o simbolismo claro das ruínas nas quais eles estão lutando para sobreviver.
 
 ## Pontos Fortes e Fracos
 
 **Pontos Fortes:**
-*   **A Ação Física:** O combate destaca as limitações atuais dos protagonistas. Elara não pode mais resolver o conflito com um pulso bioelétrico, sendo forçada a se ferir, usar o ambiente (uma barra de aço, lama) e depender de improviso brutal. Isso consagra o tom de "survival horror".
-*   **Descrição Sensorial:** As descrições (o gosto de óleo e sangue, a ferrugem da máquina, os dentes da serra mastigando ferro) vendem o ambiente impiedoso, tornando o cenário tangível e hostil.
-*   **Consistência de Jaxon:** Ele tenta ajudar, disparando o revólver, mas seu impacto é minimizado pelo estado ferido, honrando as lesões sofridas no capítulo 100.
+A cena retrata eficientemente a limitação brutal da Elara, solidificando o fato de que ela não tem mais acesso à Sobrecarga Sináptica ou a outras manipulações bioelétricas. Ela precisa se virar com as mãos nuas, facas e restos de sucata, mantendo a vulnerabilidade humana da protagonista em alta. O trabalho em equipe e a codependência entre Jaxon e Elara são bem explorados.
 
-**Pontos Fracos (Para revisão editorial):**
-*   **Dinâmica da Luta:** A conclusão do combate, com Elara enfiando a faca no pescoço do robô enquanto segura a barra, pode parecer ligeiramente apressada. Talvez em uma revisão, estender a sensação de peso e fadiga física nessa disputa de força eleve ainda mais o realismo do esforço humano frente à máquina.
+**Pontos Fracos:**
+A descrição das garras da máquina e do layout do túnel poderia receber mais detalhamento tátil em edições posteriores para ajudar o leitor a se orientar no cenário escuro, uma vez que as luzes foram cortadas no começo da cena.
+
+## Auditoria de Coerência (Sanity Check)
+
+*   **"O plot twist ou eventos invalidam regras passadas?"** Não. O capítulo reforça a perda de poderes permanentes de Elara, conforme estabelecido nos capítulos anteriores. Jaxon continua severamente ferido devido ao ambiente ácido e à perda de seu braço, mantendo as apostas altas e as condições críveis.
+*   **"O resumo da lore será atualizado?"** Sim, as condições dos personagens nos arquivos da lore precisarão espelhar a vitória temporária contra o autômato.
