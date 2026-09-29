@@ -1,48 +1,58 @@
 ---
-title: "Capítulo 122: Carne e Ferrugem"
+title: "Capítulo 122: A Besta de Sucata"
 data: 2042-12-21
 localização: Subníveis Esquecidos da Malha de Trânsito, Abaixo d'A Pilha
 personagens: [Elara, Jaxon]
 ---
 
-O raspar metálico ecoou de novo, rasgando o silêncio úmido do túnel. Mais perto desta vez. As trevas à nossa frente pareciam pulsar, moldando-se na forma de um pesadelo esquecido.
+A escuridão dos subníveis esquecidos não era vazia; ela pulsava com a vida podre das engrenagens enferrujadas e do lodo estagnado. Cada passo através da água espessa parecia exigir um esforço hercúleo, a fina película de óleo iridescente grudando em minhas botas como mãos viscosas tentando me puxar para o fundo. O cheiro de ozônio queimado e ferrugem me asfixiava, uma lembrança amarga de um mundo deixado para apodrecer sob os pés dos magnatas do Cume.
 
-Apoiei Jaxon contra a parede cilíndrica de concreto corroído. Ele gemeu, um som patético e molhado.
+O som metálico se repetiu, dessa vez mais próximo. Um *crec... clang... crec*, metódico e faminto. Parecia aço rasgando contra aço, ecoando pelas paredes úmidas do tubo de trânsito abandonado.
 
-— Vá... — ele chiou, sua voz falhando enquanto a fuligem ácida o asfixiava. — Me deixa.
+— Apaga isso. — Jaxon sibilou através dos dentes cerrados, referindo-se à sua lanterna de ombro vacilante. Sua voz estava fraca, um mero fiapo em comparação ao rosnado ameaçador que eu conhecera, mas o instinto de sobrevivência do mercenário ainda queimava claro em seus olhos sob a fraca luz.
 
-— Cala a boca — murmurei, meus olhos violetas inúteis piscando contra a escuridão absoluta.
+Tateei pela lateral do seu colete e desativei a luz. Imediatamente, a escuridão absoluta nos engoliu. O silêncio que se seguiu foi ensurdecedor, quebrado apenas pela nossa respiração entrecortada e pelo som constante da água pingando do teto como lágrimas ácidas.
 
-Sem a minha bioeletricidade, eu não conseguia sentir as engrenagens, os fios, as frequências do mundo ao meu redor. Eu estava completamente cega. Eu era apenas carne.
+Eu não era mais a garota com a Sobrecarga Sináptica. Eu não podia acelerar meus reflexos, não podia disparar arcos elétricos pelos meus dedos para derreter circuitos. Era apenas carne, músculos trêmulos e ossos doloridos, apoiando um homem duas vezes o meu peso que mal conseguia ficar de pé. A ausência de poder era uma ferida aberta na minha mente, latejando de frustração.
 
-A forma se revelou na borda instável do nosso precário círculo de luz da lanterna de ombro. Era um antigo autômato de segurança. Suas placas de cerâmica estavam esfaceladas, revelando uma musculatura enferrujada de pistões e sistemas hidráulicos que choravam óleo espesso. Seus sensores oculares haviam morrido há décadas, substituídos por fendas vazias que fediam a decomposição tecnológica, mas os microfones em seu crânio estalaram, captando o chocalhar dos nossos corações.
+De repente, a apenas algumas dezenas de metros à nossa frente, uma matriz de sensores ópticos antigos piscou para a vida. Eram três "olhos", brilhando em um âmbar doentio e falho. Eles não pertenciam a um Sentinela ou a um drone comum. Eram os olhos de uma amálgama.
 
-Não havia como correr. A perna de Jaxon arrastava, e eu mal conseguia me sustentar sob meu próprio peso. A máquina avançou, a água negra espirrando sob garras rombudas e oxidadas. Seus braços, modificados com pontas que lembravam brocas de mineração embotadas, se levantaram.
+A Besta de Sucata emergiu da água negra, erguendo-se sobre pernas que pareciam pistões de um velho vagão de carga. Era uma quimera hedionda de restos tecnológicos — chassis amassados, braços hidráulicos de empilhadeiras mortas, e o que parecia ser o motor exposto de um guindaste industrial formando o núcleo de seu torso torcido. Fios soltos pendiam de sua estrutura como tripas metálicas supurando óleo em vez de sangue. A lixeira de Éden havia criado seu próprio predador ápex, montado a partir dos descartes da própria cidade.
 
-Meu coração martelava contra as costelas, o peito apertado. O instinto berrava para que eu liberasse um pulso e fritasse os circuitos expostos, mas o poço dentro de mim permanecia silencioso, morto. A Sobrecarga não viria.
+Jaxon tentou erguer o revólver com a mão trêmula, mas eu o impedi, pressionando o cano da arma para baixo.
 
-Tateei o chão freneticamente, a água lamacenta e química gelando meus dedos até que minha mão bateu em algo sólido. Um cano de aço corroído, grosso como meu antebraço, e uma lasca de metal afiada que poderia ter sido parte de um painel rasgado do próprio túnel — parecia uma faca tosca.
+— Não — sussurrei. — Você tem três balas. Essa coisa é puro aço denso. Balas normais só vão irritá-la, e você mal consegue mirar.
 
-Agarrei a faca improvisada em uma mão e o cano na outra, erguendo-me na frente de Jaxon. A máquina girou a broca enferrujada com um guincho que me fez trincar os dentes.
+— E qual é a ideia brilhante então, gênio? — Ele cuspiu, apoiando-se pesadamente contra a curvatura suja do túnel. — Cantar uma canção de ninar pra ela?
 
-Ela investiu.
+Engoli seco, observando os olhos da besta varrerem o túnel. Ela não estava caçando com sensores térmicos — o calor residual da purga térmica mais acima provavelmente cegaria qualquer infravermelho aqui. Ela estava caçando por som e vibração.
 
-A broca desceu num arco cego e desajeitado, e eu me joguei para a direita, o lodo amortecendo meus movimentos. O golpe rasgou a água suja, cravando-se no fundo. Sem pensar, balancei o cano com toda a minha força restante contra a junta exposta de seu joelho. O som de metal quebrando ecoou, mas a máquina não sentia dor. Ela girou rigidamente, o braço livre me atingindo nas costelas com a força de um aríete.
+Soltei Jaxon lentamente, deixando-o escorregar até se sentar no piso lamoso, apoiado contra a parede.
 
-O impacto me arremessou dois metros para trás. O ar foi expulso dos meus pulmões em um chiado agoniado, e caí na água fétida, engasgando, sentindo gosto de sangue e lama. O autômato mudou seu foco de Jaxon e caminhava na minha direção.
+— Fica quieto. — Eu ordenei, minha voz mal audível.
 
-Tossi, a dor rasgando minha visão. Minhas mãos apertaram a sucata até meus nós dos dedos ficarem brancos. Era isso. Sobreviver ou ser engolida pela lixeira.
+Dei um passo para frente, afastando-me dele. A água chapinhou suavemente, mas a Besta de Sucata girou seu pescoço articulado em minha direção, os olhos âmbar travando no movimento da água. Seu motor de núcleo rugiu, um som rouco de correias desgastadas e metal rangendo.
 
-Quando a máquina se abaixou para perfurar, rolei para perto do seu centro de gravidade. A broca afundou na lama a milímetros do meu pescoço. Usando o momento, ergui o cano e enfiei-o num aglomerado de engrenagens expostas sob a axila mecânica, travando seu braço direito.
+Eu não tinha bioeletricidade, mas tinha algo que as máquinas mortas ao redor me ensinaram ao longo da minha vida: a compreensão da sua natureza estúpida e inflexível. Olhei para cima. Diretamente acima da abominação, pendurado no teto do túnel por suportes corroídos pela ferrugem e chuva ácida das décadas passadas, estava um antigo distribuidor de tensão principal, massivo e enferrujado, do tamanho de um carro.
 
-A máquina hesitou, engrenagens gritando enquanto tentavam quebrar o aço. Eu levantei com o resto do meu ímpeto e cravei a lasca de metal enferrujada com as duas mãos profundamente na junção do seu pescoço. O óleo jorrou sobre o meu rosto. Forcei a faca para os lados, mutilando os cabos centrais espessos até ouvir o estalo doentio de conexões se rompendo.
+A besta avançou, levantando um braço hidráulico terminado em uma garra de esmagamento que poderia me partir ao meio com facilidade. O som de seus passos pesados criava pequenas ondas na água suja.
 
-Os movimentos da máquina travaram. Faíscas pífias choveram das fendas oculares. Com um último suspiro hidráulico prolongado, o peso morto desabou, espirrando água podre por todo o túnel.
+Agachei-me instintivamente na água fétida, sentindo a película de óleo revestir meu traje esfarrapado. Peguei um grande pedaço de vergalhão enferrujado escondido na lama do fundo do túnel. Minhas mãos, já em carne viva, gritaram de dor, mas o medo superava qualquer agonia física.
 
-Caí de joelhos, respirando em arfadas rasas, o corpo tremendo de choque. Sangue e óleo manchavam minhas roupas. Eu não era mais a garota de pura energia. Mas eu havia lutado, com sucata e fúria bruta.
+Enquanto a besta abaixava a garra para onde eu estava um segundo antes, levantei-me de um salto e arremessei o vergalhão com toda a força que restava nos meus braços exaustos. Não mirei na besta. Mirei em um dos suportes enferrujados do distribuidor de tensão preso ao teto, bem onde ele se conectava ao conduíte central.
 
-— Puta merda... — Jaxon resmungou das trevas, tentando uma risada que se transformou em uma tosse molhada.
+O impacto foi um estalo sordo contra o aço podre. O suporte já comprometido cedeu sob o choque.
 
-Sorri, um corte dolorido no lábio. Lavei os olhos no braço sujo. Estávamos no escuro, no fundo absoluto da cidade. Mas estávamos vivos.
+Houve um gemido metálico excruciante ecoando pelo túnel. A Besta de Sucata parou, seu processador primitivo tentando catalogar o novo som vindo de cima. Foi tarde demais.
 
-— Vem — falei, arrastando-me de volta para ele. — Não terminamos ainda.
+Com um estrondo que sacudiu a lama e as fundações do próprio túnel, as toneladas do antigo distribuidor de tensão despencaram do teto, esmagando a besta contra o chão do poço com força esmagadora. A água negra espirrou em todas as direções, formando uma onda fedorenta que me jogou de volta contra a parede, tirando o ar dos meus pulmões.
+
+Quando consegui abrir os olhos, limpando a fuligem e o lodo do rosto, os olhos âmbar da Besta de Sucata estavam esmagados e sem luz sob o pedaço massivo de lixo industrial. Fios retorcidos soltavam pequenas faíscas que morriam rapidamente na água.
+
+Arfando, rastejei de volta até Jaxon, que estava com os olhos arregalados, a arma ainda firmemente presa em sua mão.
+
+— Você é louca. — Ele murmurou, a voz rouca, antes de tossir e cuspir mais catarro escuro.
+
+— Eu sou o que sobrou. — Respondi, puxando seu braço por cima do meu ombro mais uma vez para erguê-lo. A dor do esforço me fez ver pontos luminosos. — O caminho tá livre. E eu aposto que nada mais grande vai tentar passar por esse corredor depois disso.
+
+Deixamos o cadáver metálico da besta para apodrecer junto com os outros fantasmas da infraestrutura esquecida, avançando mais fundo no ventre frio d'A Pilha. Cada passo era uma barganha com a morte, e o preço cobrado era o nosso sangue e nossa exaustão.
