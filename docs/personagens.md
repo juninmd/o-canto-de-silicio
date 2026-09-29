@@ -13,7 +13,7 @@
     *   Possui a habilidade única de interfacear mentalmente com tecnologias antigas sem a necessidade de implantes. Agora, consegue **projetar bioeletricidade** para forçar sistemas eletrônicos (Cap. 9) e **cauterizar ferimentos orgânicos** (Cap. 10).
     *   **Habilidade Especial:** **Sobrecarga Sináptica** — Originalmente permitia acelerar a percepção do tempo e reagir a ameaças com precisão sobre-humana. No entanto, após o embate final, seu poder bioelétrico foi quase inteiramente extinto ("queimado").
     *   Seus poderes bioelétricos criavam uma ponte involuntária com o Deus-Máquina, mas essa conexão foi cortada de forma permanente.
-    *   **Estado Atual (Cap. 122):** Sobreviveu a um confronto no fundo do poço contra um autômato corrompido primitivo usando apenas força física bruta e armas improvisadas (cano e faca), provando sua resiliência mesmo desprovida de seus poderes bioelétricos, que demonstram estar verdadeiramente extintos enquanto ela sangra no escuro ajudando Jaxon.
+    *   **Estado Atual (Cap. 122):** Sobreviveu ao confronto na malha de trânsito, derrotando um antigo autômato enferrujado em combate corpo a corpo brutal usando apenas sucata (um cano e uma faca improvisada), protegendo Jaxon enquanto navegam pelos subníveis esquecidos.
 *   **Motivação:**
     *   Inicialmente encontrar a "Fonte Primordial", que agora se revela uma lenda ilusória. Sua motivação central agora é pura e simplesmente a sobrevivência em uma Nova Aether desestabilizada e perigosa após a queda do núcleo da Ordem.
 
@@ -67,7 +67,7 @@
     *   Um mercenário veterano, corpulento, com uma cicatriz profunda cruzando o rosto.
     *   Carrega um **rifle de plasma modificado** e tem um braço mecânico rústico.
     *   Cínico e pragmático, ele vê o mundo como um lugar onde apenas os fortes sobrevivem.
-    *   **Estado Atual (Cap. 122):** Quase incapacitado e ardendo em febre após o embate com o autômato primitivo no fundo do poço, onde seu único tiro de revólver foi ineficaz. Sobrevive apoiado inteiramente na determinação de Elara de tirá-los do túnel inundado.
+    *   **Estado Atual (Cap. 122):** Gravemente ferido, asfixiado por fuligem e incapacitado durante o ataque do autômato enferrujado na malha de trânsito, dependendo inteiramente da proteção de Elara para sobreviver na escuridão.
 *   **Equipamento:**
     *   Roupas esfarrapadas. Pulmão cibernético completamente inoperante. O soquete do braço cibernético destruído está envolto em ataduras improvisadas da roupa de Elara. Armado com um revólver de tambor pesado (agora sem munição).
 *   **Motivação:**
