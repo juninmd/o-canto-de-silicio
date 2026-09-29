@@ -553,28 +553,6 @@ A trama atingiu um marco sombrio e extremamente cativante de "Noir Cyberpunk", d
 - **A História é Boa?** "O Legado de Silício" é um marco excelente no subgênero de "survival horror" Cyberpunk Noir. O comprometimento em manter as consequências físicas e emocionais das batalhas, retirando os elementos de poder fantasioso dos protagonistas, tornou a história infinitamente mais arriscada e imersiva. É uma jornada sombria, brutal e com um ritmo implacável, onde a sobrevivência crua é a maior vitória.
 
 **Análise do Capítulo 122:**
-- **Coerência de Personagens:** A brutalidade do confronto ilustra perfeitamente a regressão forçada de Elara. Ela não recua diante do autômato, substituindo seus antigos poderes bioelétricos por fúria e improvisação desesperada (o uso do tubo de pressão). Jaxon, por sua vez, age de forma coerente com sua limitação física, tentando ser útil com o revólver, mas evidenciando tremores e exaustão. Eles são guerreiros quebrados lutando com o que restou.
-- **Necessidade de Novos Personagens:** Adicionar novos personagens seria prejudicial. A sensação de abandono e luta solitária contra abominações esquecidas da cidade baixa reforça a atmosfera do "Fundo do Poço". A dinâmica funciona melhor focada exclusivamente na sobrevivência da dupla.
-- **Qualidade da História:** A escrita é afiada, tensa e visceral. O combate é descrito com textura e peso: a ferrugem da serra, a água fétida espirrando, a lama na boca. Isso traduz fielmente o horror industrial de sobrevivência, tornando a derrota do autômato uma vitória custosa, não heroica.
-
-**Revisão Global de Todos os Personagens na Obra (Capítulos 1 a 122):**
-- **Coerência dos Personagens:** O arco contínuo de Elara e Jaxon permanece um dos pontos mais fortes de *O Legado de Silício*. A escolha corajosa de manter danos permanentes (como a perda da Sobrecarga Sináptica de Elara e o braço de Jaxon) cimenta as consequências neste universo de forma impecável. Eles não são heróis invencíveis, mas sim ratos encurralados lutando furiosamente nos dutos escuros da cidade.
-- **Necessidade de Novos Personagens:** O isolamento imposto à dupla é essencial para o peso emocional da obra. Integrar novos aliados de última hora diluiria a constante tensão e fragilidade. As ameaças contínuas, seja a Ordem do Silício, o ambiente tóxico ou autômatos obsoletos, substituem a necessidade de um elenco denso de personagens de suporte, tornando a cidade o verdadeiro antagonista.
-- **A História é Boa?** A história é uma conquista do subgênero Cyberpunk Noir e horror de sobrevivência. Ela mescla exploração e desespero de forma primorosa, sempre garantindo que cada pequena vitória seja paga com sangue, ferrugem ou dor. O ritmo implacável, onde o perigo não dá trégua nem mesmo no "fundo do poço", agarra o leitor de forma irrevogável.
-
-**Análise do Capítulo 122:**
-- **Coerência:** O capítulo mantém com sucesso a continuidade sobre a limitação de poderes da Elara, resolvendo o conflito não através da bioeletricidade previamente perdida (Cap 44), mas sim utilizando da astúcia física. Além disso, o cenário se conecta diretamente aos subníveis esquecidos para onde eles caíram no final do capítulo 121.
-- **Personagens:** O diálogo fortalece a dinâmica Jaxon/Elara baseada no respeito mútuo. A fragilidade física de Jaxon (perda do braço, ferimentos, exaustão) é mantida de forma orgânica, gerando tensão de sobrevivência.
-- **Lore:** A criatura fóssil (autômato corroído) funciona como um antagonista diegético que reforça o decaimento estrutural e o lixo histórico da 'Pilha', combinando perfeitamente com a descrição do Abismo Termal descendo aos níveis de infraestrutura velha e abandonada.
----
-
-# Conclusão da Revisão Global da Obra (Capítulos 1 a 121)
-
-- **Total de Capítulos:** 121 Capítulos (~97.000 palavras).
-- **Continuidade & Lore:** 100% Consistente.
-  - A perda permanente da Sobrecarga Sináptica de Elara (Capítulo 44) foi estritamente respeitada até o Capítulo 121.
-  - A destruição mecânica do braço de Jaxon e a falha do pulmão cibernético foram mantidas sem concessões nem milagres.
-  - A geopolítica pós-queda do Deus-Máquina (conflito com o Cartel da Água de Silas, inverno radioativo do Setor 5 e Purga Térmica) ancorou a narrativa no realismo de sobrevivência urbana.
-- **Qualidade & Estilo:** Cyberpunk Noir / Survival Horror coeso, sensorial e tenso.
-- **Plot Twists Auditados:** A farsa da Fonte Primordial, a escravização neural (*wetware*), a queima irreversível de habilidades e a descida aos subníveis esquecidos.
-- **Próximos Passos (Capítulos 122+):** Explorar a nova ameaça biomecânica ancestral na malha inundada do Fundo do Poço, mantendo a vulnerabilidade humana e a sobrevivência por engenhosidade tática.
+- **Coerência de Personagens:** O capítulo foca no pragmatismo doloroso de Elara e Jaxon. Sem a Sobrecarga Sináptica, Elara prova mais uma vez que sua força não vem apenas de poderes perdidos, mas de sua determinação implacável e adaptabilidade, usando uma barra enferrujada contra um robô de guerra. Jaxon, leal, tenta ajudar mesmo gravemente ferido, mas seu corpo cobra o preço de forma realista, evidenciando as consequências cumulativas dos capítulos anteriores (100+).
+- **Necessidade de Novos Personagens:** O confronto é conduzido exclusivamente pela dupla de sobreviventes e por um autômato corrompido que reforça o abandono da malha urbana profunda. Qualquer introdução de personagens aliados ou expositivos neste ambiente arruinaria a imersão claustrofóbica e sufocante e violaria as regras do gênero focadas no homem vs. ambiente/máquina.
+- **Qualidade da História:** A escrita reafirma a atmosfera cyberpunk decadente. O combate é físico, violento e imersivo, transpirando poeira, lodo e sangue. Isso sustenta o ritmo eletrizante que a narrativa vem desenvolvendo sem depender de resgates mágicos ou deus ex machina.
