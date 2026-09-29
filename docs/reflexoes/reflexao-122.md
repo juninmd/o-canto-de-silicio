@@ -1,18 +1,13 @@
 # Reflexão: Capítulo 122
 
-## Análise Crítica (Autoavaliação Técnica)
+## Análise Crítica
+*   **Ritmo (Pacing):** 9/10 - A tensão é magistralmente mantida através do isolamento sensorial (escuridão) e do suspense da aproximação sonora da criatura.
+*   **Diálogos:** 9/10 - Curtos, tensos e realistas para a situação; a tosse ensanguentada de Jaxon e as poucas palavras reforçam a gravidade do cenário, evitando exposição desnecessária.
+*   **Atmosfera:** 10/10 - Excelente imersão na decadência cyberpunk "suja". O cheiro de ozônio, lodo espesso, o som arrastado na água e as sombras grotescas pintam perfeitamente a desesperança do Fundo do Poço.
 
-*   **Ritmo (Pacing): 9/10**
-    A transição do silêncio tenso para a ação crua e desesperada cria um bom crescendo. A resolução não utiliza superpoderes ou "deus ex machina", mas o ambiente decadente, mantendo a tensão alta.
-*   **Diálogos: 9/10**
-    As trocas continuam ríspidas, curtas, focadas na sobrevivência. A dinâmica entre Elara e Jaxon mostra confiança mútua fundamentada nas perdas de ambos.
-*   **Atmosfera: 10/10**
-    O monólogo interior sobre a ausência de poderes funde-se bem com as descrições da água estagnada e da besta de sucata orgânica. A sensação de lixeira viva do cyberpunk está no ápice.
+## Pontos Fortes
+*   A transição da dependência dos antigos poderes de Elara para sua sobrevivência instintiva e física; a menção ao vazio da sua bioeletricidade aterre perfeitamente a mudança de paradigma.
+*   O uso de elementos sensoriais (som da água, engatilhar da arma, textura do lodo e da jaqueta) para construir suspense antes da revelação da ameaça.
 
-## Pontos Fortes e Fracos
-
-*   **Pontos Fortes:**
-    *   **Criatividade na Ameaça:** A introdução da "Besta de Sucata" dá vida ao cenário descartado, agindo como parte do ecossistema das ruínas mais profundas, em vez de um inimigo polido e higiênico.
-    *   **Ação baseada no Ambiente:** Elara usa a sucata (suportes enferrujados e o distribuidor de tensão) para vencer a ameaça, enfatizando sua inteligência sem depender de poderes perdidos, e respeitando a gravidade de sua atual fragilidade (e a de Jaxon).
-*   **Pontos Fracos:**
-    *   A natureza orgânica-mecânica da fera pode gerar confusão sobre a sua fonte de energia (se havia ou não inteligência real nela), talvez precisasse ser enfatizado que era puramente uma amálgama automatizada acidental.
+## Pontos Fracos
+*   A criatura mutante poderia ter tido um foreshadowing mais sutil em vez de aparecer tão diretamente; sua introdução foi um pouco abrupta no clímax do capítulo.
