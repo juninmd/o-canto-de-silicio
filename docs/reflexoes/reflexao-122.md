@@ -3,16 +3,16 @@
 ## Análise Crítica (Autoavaliação Técnica)
 
 *   **Ritmo (Pacing): 9/10**
-    A transição do suspense no final do capítulo 121 para a ação imediata do 122 flui bem. O ritmo acelera para descrever a luta de Elara e desacelera na resolução com uma interação autêntica.
+    A ação intensa retomou a urgência no fundo do poço de maneira eficaz e rápida.
 *   **Diálogos: 9/10**
-    Há poucos diálogos, mas muito incisivos e no tom adequado. Jaxon mostrando apreço genuíno enquanto desaba de fraqueza e Elara retomando sua confiança baseada puramente na sobrevivência sem depender de poderes mágicos perdidos.
-*   **Atmosfera: 10/10**
-    O cenário "desagradável" está muito presente com descrições do cheiro acre do óleo negro jorrando, a lama espessa com água química inundando suas roupas, além do combate físico rústico com barra de ferro improvisada. Isso aumenta o elemento tátil da cena.
+    Exaustos, porém assertivos. Eles enfatizam que não têm nada mais além de um ao outro, criando um laço inquebrável.
+*   **Atmosfera: 9/10**
+    O lodo químico, ferrugem espessa e trevas sem luz aumentam as consequências extremas para os sobreviventes que viraram simples sacos de carne.
 
 ## Pontos Fortes e Fracos
 
 *   **Pontos Fortes:**
-    *   **Resolução sem Deus Ex Machina:** A vitória de Elara baseia-se unicamente em física, conhecimento de combate improvisado e astúcia para usar a força desbalanceada da máquina enferrujada. Isso reforça de forma consistente a memória do universo que dita que ela perdeu seus poderes biomecânicos e deve contar com a sua vulnerável humanidade.
-    *   **Imersão sensorial:** O óleo, a chuva de faíscas no lodo e os rangidos do fóssil cibernético complementam perfeitamente o ambiente dos subníveis esquecidos.
+    *   **Ação Tátil:** O desespero da luta de Elara usando apenas força física crua e armas rudimentares solidifica sua perda de poderes e transição forçada para a mera sobrevivência humana, sublinhando sua fragilidade, porém resiliência inquebrantável.
+    *   **Atmosfera Decrépita:** O inimigo ser um maquinário não-Senciente e não da Ordem do Silício perverte bem o cenário, demonstrando os desdobramentos hostis de viver nos recantos escuros da cidade, ignorados pelo tempo.
 *   **Pontos Fracos:**
-    *   O embate talvez tenha sido resolvido rapidamente, embora faça sentido dado que a criatura é descrita como um fóssil enferrujado em decomposição física e algorítmica. O desafio no próximo capítulo deve focar mais no esgotamento físico contínuo.
+    *   A cura lenta/cauterização de ferimentos no final pode causar dúvidas quanto à perda total de poderes de Elara caso não haja ênfase na ausência das habilidades nas narrações subsequentes, o que pode necessitar atenção redobrada no futuro.
