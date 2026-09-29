@@ -13,7 +13,7 @@
     *   Possui a habilidade única de interfacear mentalmente com tecnologias antigas sem a necessidade de implantes. Agora, consegue **projetar bioeletricidade** para forçar sistemas eletrônicos (Cap. 9) e **cauterizar ferimentos orgânicos** (Cap. 10).
     *   **Habilidade Especial:** **Sobrecarga Sináptica** — Originalmente permitia acelerar a percepção do tempo e reagir a ameaças com precisão sobre-humana. No entanto, após o embate final, seu poder bioelétrico foi quase inteiramente extinto ("queimado").
     *   Seus poderes bioelétricos criavam uma ponte involuntária com o Deus-Máquina, mas essa conexão foi cortada de forma permanente.
-    *   **Estado Atual (Cap. 122):** Enfrenta uma máquina de manutenção industrial corrompida (uma monstruosidade de sucata) nos subníveis inundados. Continua sem seus poderes e armada apenas com uma chave inglesa, focada em evasão e sobrevivência pura para proteger a si mesma e a Jaxon.
+    *   **Estado Atual (Cap. 122):** Continua desprovida de seus poderes, mas conseguiu desativar brutalmente um antigo drone de escavação corrompido nos túneis inundados da malha de trânsito esquecida usando apenas uma pesada chave de manutenção e pura alavanca física. Ela e Jaxon continuam avançando nas trevas do subnível.
 *   **Motivação:**
     *   Inicialmente encontrar a "Fonte Primordial", que agora se revela uma lenda ilusória. Sua motivação central agora é pura e simplesmente a sobrevivência em uma Nova Aether desestabilizada e perigosa após a queda do núcleo da Ordem.
 
@@ -67,7 +67,7 @@
     *   Um mercenário veterano, corpulento, com uma cicatriz profunda cruzando o rosto.
     *   Carrega um **rifle de plasma modificado** e tem um braço mecânico rústico.
     *   Cínico e pragmático, ele vê o mundo como um lugar onde apenas os fortes sobrevivem.
-    *   **Estado Atual (Cap. 122):** Gravemente ferido e febril, seu braço amputado lateja sob ataduras improvisadas. Foi arrastado por Elara para fora do caminho de uma máquina de reciclagem desgovernada, caindo na água ácida durante o embate.
+    *   **Estado Atual (Cap. 122):** Sobreviveu a um confronto no fundo do poço da velha malha de trânsito contra um antigo drone de escavação corrompido, provendo a distração que permitiu a Elara neutralizar a máquina, apesar de estar quase incapacitado. Continua dependendo dela para avançar.
 *   **Equipamento:**
     *   Roupas esfarrapadas. Pulmão cibernético completamente inoperante. O soquete do braço cibernético destruído está envolto em ataduras improvisadas da roupa de Elara. Armado com um revólver de tambor pesado (agora com munição quase zerada, após disparar contra o autômato no Capítulo 122).
 *   **Motivação:**

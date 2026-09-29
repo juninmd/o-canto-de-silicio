@@ -1,28 +1,56 @@
 ---
-title: "Capítulo 122: Ferrugem no Sangue"
+title: "Capítulo 122: Ferrugem e Dentes"
 data: 2042-12-21
 localização: Subníveis Esquecidos da Malha de Trânsito, Abaixo d'A Pilha
 personagens: [Elara, Jaxon]
 ---
 
-O som rasgado e estridente ecoou novamente, amplificado pela arquitetura cilíndrica do túnel. Não era um ruído orgânico. Era o som de metal oxidado raspando contra concreto, o lamento de engrenagens há muito esquecidas forçando-se a girar através do lodo espesso.
+O raspar metálico cresceu, um lamento agudo de engrenagens sem lubrificação que reverberava nas paredes cilíndricas do túnel inundado. Cada passo que dávamos parecia afundar mais na lama espessa, a água morta na altura das nossas panturrilhas dificultando qualquer movimento rápido.
 
-Jaxon apertou o cabo do revólver pesado. Seus dedos, manchados com a própria fuligem e sangue secos, tremiam. O cano da arma oscilava no ar viciado, pesando toneladas em sua mão. Ele tossiu, um som gutural e úmido que soou dolorosamente frágil no imenso vazio que nos cercava.
+Jaxon respirava com dificuldade, o braço bom apertando meu ombro. A luz fraca da sua lanterna varria a escuridão úmida à frente, revelando apenas o brilho iridescente do óleo sobrenadante.
 
-— Guarde as balas — eu murmurei, minha voz mal passando de um sopro no escuro. A lanterna improvisada piscava erraticamente, a bateria moribunda lutando para atravessar a névoa ácida e fria que começava a condensar em nossas roupas ensopadas. — Nós só temos três.
+Então, a escuridão cedeu.
 
-— Melhor do que nada — ele rosnou de volta, os dentes cerrados. Sua pele, normalmente impenetrável sob as cicatrizes, tinha a palidez translúcida da morte iminente. O braço amputado latejava sob os trapos imundos da minha camisa, a carne rasgada exigindo o descanso que este lugar não iria conceder.
+Duas órbitas óticas, imensas e trincadas, acenderam-se com um brilho amarelo doentio. A máquina emergiu do lodo como um leviatã esquecido. Era um drone de escavação da era pré-colapso, originalmente projetado para expandir os limites da cidade. Agora, era uma abominação de carapaça corroída, coberta por cracas de ferrugem e musgo bioluminescente. Suas brocas frontais, pesadas e desgastadas, giraram com um zumbido grave que fez meus ossos vibrarem.
 
-Eu apertei a chave inglesa na minha mão boa. Sem a Sobrecarga Sináptica, sem a estática reconfortante correndo sob a minha pele, o metal frio da ferramenta parecia absurdamente insuficiente. Antes, eu poderia ter sentido a assinatura elétrica daquilo se aproximando. Eu poderia ter frito seus circuitos com um pensamento. Agora, eu era apenas carne sangrando na escuridão, cega e vulnerável.
+— Merda — Jaxon rosnou, a voz rouca. Ele tentou erguer o revólver pesado, mas a mão tremia, o peso da arma subitamente excessivo para alguém perdendo tanto sangue.
 
-Da escuridão à frente, emergiram os contornos da ameaça. Não era um Sentinela, muito menos a precisão elegante das aberrações da Ordem. Era uma amálgama profana de sucata. Um Rato-Drone de proporções monstruosas, ou melhor, os restos retorcidos de uma escavadeira de manutenção industrial de séculos atrás, infestada por algum protocolo de reciclagem enlouquecido. Cabos se retorciam como tendões expostos e luzes ópticas amarelas e mortas ganharam um brilho vermelho pálido e agressivo. Ele triturava a água negra, as pás giratórias presas em seu chassi mastigando o lixo inerte.
+O drone avançou. Não tinha a precisão fria dos Sentinelas ou a velocidade enlouquecedora dos Ratos-Drones. Era pura força bruta, empurrando uma onda de água negra em nossa direção. A lógica corrompida de seus sensores obviamente nos classificava como detritos orgânicos no caminho de sua eterna escavação fantasma.
 
-O cheiro de ozônio queimado e óleo rançoso bateu em nós antes mesmo da máquina investir.
+— Jaxon, para trás! — gritei, empurrando-o em direção a um nicho de manutenção incrustado na parede do túnel.
 
-— Corre. — Jaxon ofegou. Ele não olhou para mim.
+Minhas mãos instintivamente formaram punhos, o reflexo condicionado de buscar a centelha de bioeletricidade. Nada. Nenhum formigamento nas veias, nenhum cheiro de ozônio. O vazio no meu peito zombou de mim. Eu estava desarmada, frágil.
 
-Eu não discuti. Eu não podia salvá-lo, não com a força bruta. Agarrando seu cinto são, impulsionei-o para a esquerda, forçando nós dois a tropeçarmos pela lama espessa até a margem mais seca e estreita do túnel, encostando na parede curva e gotejante. O monstro de sucata avançou, cego pela fúria de seu protocolo desgovernado, suas pás atingindo a água exatamente onde estávamos há um segundo.
+O drone ergueu um dos braços articulados, trazendo uma broca dentada para baixo num arco brutal.
 
-O impacto atirou uma onda de lodo químico sobre nós. A água queimou meus olhos e o cheiro me fez engasgar. Jaxon escorregou e eu caí junto com ele, o frio do piso encharcado roubando o resto da minha respiração. A máquina girou pesadamente, desengonçada, seus servos rangendo enquanto tentava recalibrar a localização da nossa "biomassa não autorizada".
+Mergulhei na água fétida. A broca atingiu o local onde eu estava um segundo antes, estilhaçando os trilhos enferrujados e enviando lascas de metal e lodo para todos os lados. A água congelante invadiu minha boca, gosto de chumbo e podridão.
 
-Nós estávamos quebrando. O mundo em que estávamos era um estômago de metal, e não havia poderes mágicos ou intervenção divina. Apenas a carne fraca, a ferrugem impiedosa e o lodo faminto. Eu apertei a chave inglesa até meus nós dos dedos sangrarem. Eu não ia morrer ali. Não ainda.
+Emergi tossindo, tateando a lama sob a superfície. *Precisa de uma vantagem. Pensa, Elara. Pensa.*
+
+O estrondo de um tiro ecoou no túnel confinado, ensurdecedor. O clarão do disparo iluminou Jaxon, recostado na parede, o revólver fumegando. A bala pesada atingiu a carapaça do drone, arrancando uma lasca de metal corroído, mas mal arranhando sua estrutura principal.
+
+A máquina virou suas óticas amarelas para ele, o zumbido subindo de tom.
+
+— Ei, sua sucata inútil! — Jaxon berrou, tossindo violentamente logo em seguida.
+
+A distração era tudo que eu precisava. O drone de escavação, apesar do tamanho, operava em um sistema hidráulico antigo. Ao iluminar a máquina de perto, percebi os grossos cabos de pressão expostos entre o torso e a base das esteiras. Cabos que deveriam estar protegidos, mas a ferrugem havia devorado a blindagem.
+
+Puxei a pesada chave de manutenção que Jaxon havia me dado há sabe-se lá quantos níveis atrás, escondida no meu cinto. Era um pedaço de aço maciço, não uma arma elegante, mas o mundo lá fora não ligava para elegância.
+
+Corri, a água resistindo a cada passo, e me atirei sobre as esteiras do drone enquanto ele erguia a broca contra Jaxon. O cheiro de fluido hidráulico vazando era enjoativo.
+
+Com um grito rasgado pela garganta, enfiei a chave de manutenção no vão entre as engrenagens da esteira principal e os cabos de pressão expostos. Usei todo o peso do meu corpo, alavancando o aço.
+
+A máquina estremeceu. O aço moeu contra o aço. Um som agudo de rompimento foi seguido por um jato de fluido hidráulico em alta pressão que espirrou direto no meu rosto, quente e cáustico.
+
+O drone emitiu um guincho metálico torturante. Com o sistema de pressão rompido, o braço que se preparava para esmagar Jaxon despencou sem força, a broca batendo no chão com um baque surdo. A máquina inteira contorceu-se, as engrenagens travadas moendo a chave de manutenção até o limite antes que o motor principal sobreaquecesse e, com um último suspiro sibilante de vapor, morresse.
+
+Fiquei de joelhos na água, ofegante, limpando o fluido viscoso dos olhos. O silêncio que se seguiu pareceu mais pesado que o barulho.
+
+Jaxon deslizou pela parede até sentar, a arma caindo da mão. Ele soltou uma risada fraca, que rapidamente se transformou em uma tosse molhada.
+
+— Nada mau... pra quem não solta mais raiozinho — ele murmurou.
+
+Levantei-me, os músculos tremendo pelo esforço. Olhei para as minhas próprias mãos ensanguentadas. Eu havia sobrevivido àquela pilha de ferrugem e dentes usando apenas carne, osso e desespero.
+
+— Vem — eu disse, indo até ele e puxando seu braço ileso novamente sobre meu ombro. — A gente não terminou de descer.
