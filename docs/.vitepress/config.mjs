@@ -13,7 +13,7 @@ export default defineConfig({
         text: 'Capítulos',
         items: [
           { text: 'Capítulo 1 (O Início)', link: '/public/capitulos/capitulo-1' },
-          { text: 'Capítulo 121 (Último Lançado)', link: '/public/capitulos/capitulo-121' }
+          { text: 'Capítulo 122 (Último Lançado)', link: '/public/capitulos/capitulo-122' }
         ]
       },
       { text: 'Personagens', link: '/personagens' },
@@ -212,7 +212,6 @@ export default defineConfig({
           { text: "Capítulo 120: Queda Controlada", link: "/public/capitulos/capitulo-120" },
           { text: "Reflexão: Capítulo 120", link: "/reflexoes/reflexao-120" },
           { text: "Capítulo 121: Fundo do Poço", link: "/public/capitulos/capitulo-121" },
-          { text: "Capítulo 122: Carne contra Ferrugem", link: "/public/capitulos/capitulo-122" },
           { text: "Reflexão: Capítulo 121", link: "/reflexoes/reflexao-121" },
           { text: "Capítulo 122: Ferrugem e Dentes", link: "/public/capitulos/capitulo-122" },
           { text: "Reflexão: Capítulo 122", link: "/reflexoes/reflexao-122" },
