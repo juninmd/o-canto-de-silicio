@@ -1,0 +1,6 @@
+# Supressoes por fingerprint - triagem manual registrada no PR de seguranca.
+
+# Falso positivo: o valor casado e texto de verificacao de rota no
+# script de frontend, nao token.
+
+11b259023388de072d23e7eb1ba7e758aa38c187:verify_frontend.py:generic-api-key:11
