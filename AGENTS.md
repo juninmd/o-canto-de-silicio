@@ -52,8 +52,9 @@ Todas as IAs que gerarem ou editarem conteúdo narrativo devem obedecer estritam
 ## 🛠️ Regras de Engenharia & Build
 
 1. **Modularidade:** Capítulos em `docs/public/capitulos/capitulo-XX.md` com frontmatter válido (`title`, `personagens`).
-2. **Build Check:** Sempre validar com `npm run docs:build` antes de concluir tarefas.
-3. **Gestão de Mídia:** Salvar simultaneamente em `docs/static/midia/` e `docs/public/midia/`.
+2. **Sidebar automática:** A sidebar, o "último lançado", o prev/next e o Mapa da Descida são gerados do frontmatter (`docs/.vitepress/lib/conteudo.mjs`). Não edite listas de capítulos à mão no `config.mjs`. Arcos ficam em `docs/.vitepress/lib/arcos.mjs`; estados dos Dossiês em `docs/.vitepress/theme/dados/personagens.js` e camadas do Atlas em `docs/.vitepress/theme/dados/atlas.js` (atualize-os junto com `personagens.md`).
+3. **Build Check:** Sempre validar com `npm run docs:build` antes de concluir tarefas.
+4. **Gestão de Mídia:** Salvar simultaneamente em `docs/static/midia/` e `docs/public/midia/`.
 
 ---
 
