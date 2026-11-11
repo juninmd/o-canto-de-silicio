@@ -1,0 +1,208 @@
+/* ==========================================================================
+   Tema "Descida" — O Canto de Silício
+   Conceito: o site é um corte vertical de Nova Aether. Óleo velho no fundo,
+   violeta de Elara para a bioeletricidade, âmbar de enxofre para ação/perigo.
+   ========================================================================== */
+
+:root {
+  /* Claro (papel envelhecido) */
+  --cds-oleo: #f1ece2;
+  --cds-escoria: #e8e1d4;
+  --cds-escoria-2: #ddd5c5;
+  --cds-veio: #cbc1ae;
+  --cds-cinza: #1e1b22;
+  --cds-fumo: #5f5867;
+  --cds-volt: #6c3fd8;
+  --cds-volt-suave: #6c3fd81f;
+  --cds-enxofre: #f0b429;
+  --cds-enxofre-texto: #8a5a00;
+  --cds-enxofre-tinta: #1a1305;
+  --cds-sangue: #b8321f;
+  --cds-musgo: #2f7d55;
+  --cds-sombra: 0 24px 60px -32px #1e1b2266;
+
+  --cds-f-display: 'Big Shoulders Display', 'Big Shoulders', 'Arial Narrow', Impact, sans-serif;
+  --cds-f-estencil: 'Big Shoulders Stencil Display', 'Big Shoulders Stencil', 'Big Shoulders Display', Impact, sans-serif;
+  --cds-f-leitura: 'Literata', Georgia, 'Times New Roman', serif;
+  --cds-f-mono: 'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace;
+  --cds-ease: cubic-bezier(.2, .8, .2, 1);
+  --cds-leitura: 19px;
+}
+
+.dark {
+  --cds-oleo: #0c0b10;
+  --cds-escoria: #15131b;
+  --cds-escoria-2: #1d1a25;
+  --cds-veio: #2c2834;
+  --cds-cinza: #ebe6dc;
+  --cds-fumo: #9a94a3;
+  --cds-volt: #a982ff;
+  --cds-volt-suave: #a982ff26;
+  --cds-enxofre-texto: #f0b429;
+  --cds-sangue: #e0503f;
+  --cds-musgo: #7fbf9a;
+  --cds-sombra: 0 30px 80px -40px #000;
+}
+
+/* Ambientes de leitura (escolhidos no leitor) sobrescrevem o tema do site. */
+html[data-leitura='noir'] {
+  --cds-oleo: #0f0e13; --cds-escoria: #16141c; --cds-escoria-2: #1e1b26; --cds-veio: #2a2631;
+  --cds-cinza: #e4dfd5; --cds-fumo: #8d8796; --cds-volt: #a982ff; --cds-enxofre-texto: #f0b429;
+  color-scheme: dark;
+}
+html[data-leitura='sepia'] {
+  --cds-oleo: #201a12; --cds-escoria: #2a2218; --cds-escoria-2: #33291d; --cds-veio: #3f3324;
+  --cds-cinza: #e8d9bd; --cds-fumo: #a38f70; --cds-volt: #c9a2ff; --cds-enxofre-texto: #f0b429;
+  color-scheme: dark;
+}
+html[data-leitura='papel'] {
+  --cds-oleo: #ece6da; --cds-escoria: #e3dccd; --cds-escoria-2: #d8cfbd; --cds-veio: #c6bba6;
+  --cds-cinza: #1e1b22; --cds-fumo: #5f5867; --cds-volt: #6c3fd8; --cds-enxofre-texto: #8a5a00;
+  color-scheme: light;
+}
+
+/* ---------- Mapeamento para as variáveis do VitePress ---------- */
+:root,
+html[data-leitura] {
+  --vp-c-bg: var(--cds-oleo);
+  --vp-c-bg-alt: var(--cds-escoria);
+  --vp-c-bg-soft: var(--cds-escoria-2);
+  --vp-c-bg-elv: var(--cds-escoria);
+  --vp-nav-bg-color: var(--cds-oleo);
+  --vp-sidebar-bg-color: var(--cds-escoria);
+  --vp-c-divider: var(--cds-veio);
+  --vp-c-gutter: var(--cds-veio);
+  --vp-c-border: var(--cds-veio);
+  --vp-c-text-1: var(--cds-cinza);
+  --vp-c-text-2: var(--cds-fumo);
+  --vp-c-text-3: var(--cds-fumo);
+  --vp-c-brand-1: var(--cds-volt);
+  --vp-c-brand-2: var(--cds-volt);
+  --vp-c-brand-3: var(--cds-volt);
+  --vp-c-brand-soft: var(--cds-volt-suave);
+  --vp-button-brand-bg: var(--cds-enxofre);
+  --vp-button-brand-text: var(--cds-enxofre-tinta);
+  --vp-button-brand-border: var(--cds-enxofre);
+  --vp-button-brand-hover-bg: #ffc94a;
+  --vp-button-brand-hover-text: var(--cds-enxofre-tinta);
+  --vp-button-brand-hover-border: #ffc94a;
+  --vp-font-family-base: var(--cds-f-leitura);
+  --vp-font-family-mono: var(--cds-f-mono);
+  --vp-home-hero-name-color: var(--cds-cinza);
+}
+
+body { background: var(--cds-oleo); }
+::selection { background: var(--cds-volt); color: var(--cds-oleo); }
+:focus-visible { outline: 2px solid var(--cds-enxofre); outline-offset: 2px; }
+
+/* ---------- Navegação e sidebar com voz de terminal ---------- */
+.VPNav .VPNavBarTitle .title {
+  font-family: var(--cds-f-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  font-size: 1.2rem;
+}
+.VPNav .VPNavBarMenuLink,
+.VPNav .VPNavBarMenuGroup .text,
+.VPSidebar .VPSidebarItem.level-0 > .item .text,
+.VPDocFooter .desc,
+.VPLocalNav .menu-text,
+.VPLocalNav .outline .text {
+  font-family: var(--cds-f-mono);
+  font-size: .72rem !important;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.VPSidebar .VPSidebarItem.level-0 > .item .text { color: var(--cds-fumo); }
+.VPDocFooter .pager-link .title { font-family: var(--cds-f-display); font-weight: 700; font-size: 1.1rem; text-transform: uppercase; }
+.VPNavBar:not(.home.top) .divider-line,
+.VPNavBar.has-sidebar .content-body { backdrop-filter: blur(10px); }
+
+.cds-cmd-btn {
+  display: flex; align-items: center; gap: .45rem;
+  margin-left: 12px; padding: 5px 8px;
+  border: 1px solid var(--cds-veio); border-radius: 4px; background: var(--cds-escoria);
+  font-family: var(--cds-f-mono); font-size: .7rem; color: var(--cds-fumo);
+  transition: border-color .2s, color .2s;
+}
+.cds-cmd-btn:hover { border-color: var(--cds-volt); color: var(--cds-cinza); }
+.cds-cmd-btn kbd, .cds-kbd {
+  font-family: var(--cds-f-mono); font-size: .66rem; line-height: 1.4;
+  border: 1px solid var(--cds-veio); border-bottom-width: 2px; border-radius: 3px;
+  padding: 0 .3rem; color: var(--cds-cinza); background: var(--cds-escoria-2);
+}
+@media (max-width: 767px) { .cds-cmd-btn .rot, .cds-cmd-btn kbd { display: none; } .cds-cmd-btn { margin-left: 4px; } }
+
+/* Ctrl K abre a paleta de comandos; a busca de texto integral segue no "/". */
+.VPNavBarSearch .DocSearch-Button-Keys { display: none; }
+
+/* ---------- Tipografia do conteúdo ---------- */
+.vp-doc h1,
+.vp-doc h2 {
+  font-family: var(--cds-f-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .01em;
+  line-height: 1;
+  text-wrap: balance;
+}
+.vp-doc h1 { font-size: clamp(2.4rem, 6vw, 3.6rem); }
+.vp-doc h2 { font-size: 2.1rem; border-top-color: var(--cds-veio); }
+.vp-doc h3 { font-family: var(--cds-f-display); font-weight: 700; font-size: 1.45rem; text-transform: uppercase; letter-spacing: .02em; }
+.vp-doc blockquote { border-left-color: var(--cds-volt); }
+.vp-doc img { border-radius: 4px; }
+.vp-doc a { text-decoration-color: color-mix(in srgb, var(--cds-volt) 45%, transparent); }
+
+/* Cartões legados usados no Markdown (mantidos). */
+.story-card {
+  border: 1px solid var(--cds-veio);
+  border-left: 2px solid var(--cds-volt);
+  border-radius: 4px;
+  padding: 1rem 1.2rem;
+  margin: 1.5rem 0;
+  background: var(--cds-escoria);
+}
+.media-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 1rem 0;
+}
+.media-grid img, .media-grid video, .media-grid audio { width: 100%; border-radius: 4px; }
+
+/* ---------- Câmara de leitura (páginas de capítulo) ---------- */
+html.is-capitulo .vp-doc > div > h1:first-child,
+html.is-capitulo .vp-doc .cds-meta-antiga { display: none; }
+html.is-capitulo .vp-doc > div > p {
+  font-size: var(--cds-leitura);
+  line-height: 1.75;
+  transition: opacity .45s, filter .45s, font-size .3s;
+}
+html.is-capitulo .vp-doc p.cds-dialogo { padding-left: 1.1em; text-indent: -1.1em; }
+html.is-capitulo .vp-doc p.cds-capitular::first-letter {
+  font-family: var(--cds-f-estencil);
+  font-weight: 900;
+  float: left;
+  font-size: 4.1em;
+  line-height: .8;
+  padding: .08em .1em 0 0;
+  color: var(--cds-volt);
+}
+html.is-capitulo.cds-foco .vp-doc > div > p { opacity: .16; filter: blur(.5px); }
+html.is-capitulo.cds-foco .vp-doc > div > p.cds-atual { opacity: 1; filter: none; }
+html.is-capitulo .VPDoc { padding-bottom: 96px; }
+
+/* Entrada suave do conteúdo a cada troca de página. */
+.VPContent .VPDoc .content-container,
+.VPContent .VPPage { animation: cds-entra .6s var(--cds-ease) both; }
+@keyframes cds-entra { from { opacity: 0; transform: translateY(10px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

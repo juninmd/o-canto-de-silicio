@@ -1,5 +1,9 @@
 # Personagens de O Canto de Silício
 
+Fichas de campo com o estado canônico de cada personagem. Abra um dossiê para ver em quais capítulos ele aparece; a ficha completa segue logo abaixo.
+
+<DossieGrid />
+
 ## Elara
 
 ![Elara](./static/midia/elara.jpg)

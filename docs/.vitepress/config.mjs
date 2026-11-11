@@ -1,4 +1,58 @@
 import { defineConfig } from 'vitepress'
+import { lerCapitulos, ARCOS, arcoDe } from './lib/conteudo.mjs'
+import { ROMANOS } from './lib/arcos.mjs'
+
+// Sidebar, navegação e prev/next são gerados a partir do frontmatter dos
+// capítulos: publicar o capítulo N+1 não exige mais editar este arquivo.
+const capitulos = lerCapitulos()
+const ultimo = capitulos[capitulos.length - 1]
+const porLink = new Map()
+capitulos.forEach((c) => {
+  porLink.set(`public/capitulos/capitulo-${c.n}.md`, { tipo: 'cap', c })
+  if (c.reflexao) porLink.set(`${c.reflexao.slice(1)}.md`, { tipo: 'ref', c })
+})
+const comReflexao = capitulos.filter((c) => c.reflexao)
+
+const nomeArco = (a) => `Arco ${ROMANOS[a.id] || a.id} · ${a.nome}`
+const arcosUsados = ARCOS.filter((a) => capitulos.some((c) => c.arco === a.id))
+
+const sidebar = [
+  {
+    text: 'Leitura',
+    items: [
+      { text: 'Início', link: '/' },
+      { text: 'Mapa da Descida', link: '/#mapa' },
+      { text: `Último lançado · Cap. ${ultimo.n}`, link: ultimo.link }
+    ]
+  },
+  ...arcosUsados.map((a) => ({
+    text: nomeArco(a),
+    collapsed: a.id !== arcoDe(ultimo.n).id,
+    items: capitulos
+      .filter((c) => c.arco === a.id)
+      .map((c) => ({ text: `${c.n}. ${c.titulo}`, link: c.link }))
+  })),
+  {
+    text: 'Reflexões',
+    collapsed: true,
+    items: arcosUsados.map((a) => ({
+      text: nomeArco(a),
+      collapsed: true,
+      items: comReflexao
+        .filter((c) => c.arco === a.id)
+        .map((c) => ({ text: `Reflexão: Capítulo ${c.n}`, link: c.reflexao }))
+    }))
+  },
+  {
+    text: 'Universo',
+    items: [
+      { text: 'Dossiês · Personagens', link: '/personagens' },
+      { text: 'Atlas · Sobre o Universo', link: '/sobre' }
+    ]
+  }
+]
+
+const vizinho = (c, txt) => (c ? { text: txt(c), link: c.link } : false)
 
 export default defineConfig({
   base: '/o-canto-de-silicio/',
@@ -6,220 +60,70 @@ export default defineConfig({
   title: 'O Canto de Silício',
   description: 'Um thriller sci-fi/fantasia pós-apocalíptico onde Elara busca reacender o mundo à sombra de deuses-máquina.',
   publicDir: 'static',
+  appearance: 'dark',
+  head: [
+    ['meta', { name: 'theme-color', content: '#0c0b10' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;900&family=Big+Shoulders+Stencil+Display:wght@800;900&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap'
+    }]
+  ],
+
+  // prev/next explícitos: capítulo ↔ capítulo e reflexão ↔ reflexão.
+  transformPageData(pageData) {
+    const alvo = porLink.get(pageData.relativePath)
+    if (!alvo) return
+    const { tipo, c } = alvo
+    if (tipo === 'cap') {
+      const i = capitulos.indexOf(c)
+      pageData.frontmatter.prev ??= vizinho(capitulos[i - 1], (x) => `Cap. ${x.n} · ${x.titulo}`)
+      pageData.frontmatter.next ??= vizinho(capitulos[i + 1], (x) => `Cap. ${x.n} · ${x.titulo}`)
+    } else {
+      const i = comReflexao.indexOf(c)
+      const ref = (x) => x && { text: `Reflexão: Capítulo ${x.n}`, link: x.reflexao }
+      pageData.frontmatter.prev ??= ref(comReflexao[i - 1]) || false
+      pageData.frontmatter.next ??= ref(comReflexao[i + 1]) || false
+    }
+  },
+
   themeConfig: {
     nav: [
       { text: 'Início', link: '/' },
       {
         text: 'Capítulos',
         items: [
+          { text: 'Mapa da Descida', link: '/#mapa' },
           { text: 'Capítulo 1 (O Início)', link: '/public/capitulos/capitulo-1' },
-          { text: 'Capítulo 122 (Último Lançado)', link: '/public/capitulos/capitulo-122' }
+          { text: `Capítulo ${ultimo.n} (Último Lançado)`, link: ultimo.link }
         ]
       },
-      { text: 'Personagens', link: '/personagens' },
-      { text: 'Sobre o Universo', link: '/sobre' }
+      { text: 'Dossiês', link: '/personagens' },
+      { text: 'Atlas', link: '/sobre' }
     ],
-    sidebar: [
-      {
-        text: 'Leitura',
-        items: [
-          { text: 'Início', link: '/' },
-          { text: 'Capítulo 1: O Canto', link: '/public/capitulos/capitulo-1' },
-          { text: 'Capítulo 2: Relíquias', link: '/public/capitulos/capitulo-2' },
-          { text: 'Capítulo 3: O Silêncio de Neon', link: '/public/capitulos/capitulo-3' },
-          { text: 'Capítulo 4: Sombras e Sinapses', link: '/public/capitulos/capitulo-4' },
-          { text: 'Capítulo 5: Ressonância Fantasma', link: '/public/capitulos/capitulo-5' },
-          { text: 'Capítulo 6: Sombras do Setor 7', link: '/public/capitulos/capitulo-6' },
-          { text: 'Capítulo 7: O Coração da Máquina', link: '/public/capitulos/capitulo-7' },
-          { text: 'Capítulo 8: Fuga do Abismo', link: '/public/capitulos/capitulo-8' },
-          { text: 'Capítulo 9: Ecos do Subsolo', link: '/public/capitulos/capitulo-9' },
-          { text: 'Capítulo 10: Ressonância Metálica', link: '/public/capitulos/capitulo-10' },
-          { text: 'Capítulo 11: Convergência Sombria', link: '/public/capitulos/capitulo-11' },
-          { text: 'Capítulo 12: Protocolo Zero', link: '/public/capitulos/capitulo-12' },
-          { text: 'Capítulo 13: Glaciação Sináptica', link: '/public/capitulos/capitulo-13' },
-          { text: 'Capítulo 14: Arritmia de Neon', link: '/public/capitulos/capitulo-14' },
-          { text: 'Capítulo 15: Permuta Sináptica', link: '/public/capitulos/capitulo-15' },
-          { text: 'Capítulo 16: Ecos de Ferrugem e Neon', link: '/public/capitulos/capitulo-16' },
-          { text: 'Capítulo 17: Fugas e Filamentos', link: '/public/capitulos/capitulo-17' },
-          { text: 'Capítulo 18: Descida ao Gelado', link: '/public/capitulos/capitulo-18' },
-          { text: 'Capítulo 19: Sobrecarga e Estilhaços', link: '/public/capitulos/capitulo-19' },
-          { text: 'Capítulo 20: O Ventre da Besta', link: '/public/capitulos/capitulo-20' },
-          { text: 'Capítulo 21: Cinzas e Silício', link: '/public/capitulos/capitulo-21' },
-          { text: 'Capítulo 22: Fios Desencapados', link: '/public/capitulos/capitulo-22' },
-          { text: 'Capítulo 23: O Peso do Aterramento', link: '/public/capitulos/capitulo-23' },
-          { text: 'Capítulo 24: Ecos no Escuro', link: '/public/capitulos/capitulo-24' },
-          { text: 'Capítulo 25: Fissuras Invisíveis', link: '/public/capitulos/capitulo-25' },
-          { text: 'Capítulo 26: O Peso do Chumbo e do Neon', link: '/public/capitulos/capitulo-26' },
-          { text: 'Capítulo 27: Ponto Cego', link: '/public/capitulos/capitulo-27' },
-          { text: 'Capítulo 28: Ferrugem e Queda', link: '/public/capitulos/capitulo-28' },
-          { text: 'Capítulo 29: Cidade Submersa', link: '/public/capitulos/capitulo-29' },
-          { text: 'Capítulo 30: O Preço do Sangue e Neon', link: '/public/capitulos/capitulo-30' },
-          { text: 'Capítulo 31: O Ponto Cego do Deus-Máquina', link: '/public/capitulos/capitulo-31' },
-          { text: 'Capítulo 32: O Sangue e a Passagem', link: '/public/capitulos/capitulo-32' },
-          { text: 'Capítulo 33: Trilhos de Prata e Sangue', link: '/public/capitulos/capitulo-33' },
-          { text: 'Capítulo 34: O Sangue Frio do Maglev', link: '/public/capitulos/capitulo-34' },
-          { text: 'Capítulo 35: O Respiro Sintético', link: '/public/capitulos/capitulo-35' },
-          { text: 'Capítulo 36: A Queda da Pilha', link: '/public/capitulos/capitulo-36' },
-          { text: 'Capítulo 37: Ecos no Abismo', link: '/public/capitulos/capitulo-37' },
-          { text: 'Capítulo 38: A Marcha dos Condenados', link: '/public/capitulos/capitulo-38' },
-          { text: 'Capítulo 39: Sinfonia de Gelo e Estilhaços', link: '/public/capitulos/capitulo-39' },
-          { text: 'Capítulo 40: O Núcleo do Abismo', link: '/public/capitulos/capitulo-40' },
-          { text: 'Capítulo 41: A Centelha Final', link: '/public/capitulos/capitulo-41' },
-          { text: 'Capítulo 42: O Silêncio Após o Trovão', link: '/public/capitulos/capitulo-42' },
-          { text: 'Capítulo 43: Cinzas e Fumaça', link: '/public/capitulos/capitulo-43' },
-          { text: 'Capítulo 44: Fôlego de Ferrugem', link: '/public/capitulos/capitulo-44' },
-          { text: 'Capítulo 45: O Custo da Carne e do Aço', link: '/public/capitulos/capitulo-45' },
-          { text: 'Capítulo 46: O Preço do Ar', link: '/public/capitulos/capitulo-46' },
-          { text: 'Capítulo 47: Sombras nas Docas Secas', link: '/public/capitulos/capitulo-47' },
-          { text: 'Capítulo 48: A Moeda de Ferrugem', link: '/public/capitulos/capitulo-48' },
-          { text: 'Capítulo 49: A Corrida Contra a Ferrugem', link: '/public/capitulos/capitulo-49' },
-          { text: 'Capítulo 50: O Sangue Frio do Bunker', link: '/public/capitulos/capitulo-50' },
-          { text: 'Capítulo 51: O Custo do Amanhã', link: '/public/capitulos/capitulo-51' },
-          { text: 'Capítulo 52: Troca de Bateria', link: '/public/capitulos/capitulo-52' },
-          { text: 'Capítulo 53: Corrida Contra o Relógio', link: '/public/capitulos/capitulo-53' },
-          { text: 'Capítulo 54: O Sangue Frio das Máquinas', link: '/public/capitulos/capitulo-54' },
-          { text: 'Reflexão: Capítulo 54', link: '/reflexoes/reflexao-54' },
-          { text: 'Capítulo 55: O Peso da Carne', link: '/public/capitulos/capitulo-55' },
-          { text: 'Reflexão: Capítulo 55', link: '/reflexoes/reflexao-55' },
-          { text: 'Capítulo 56: Fuga Furtiva', link: '/public/capitulos/capitulo-56' },
-          { text: 'Reflexão: Capítulo 56', link: '/reflexoes/reflexao-56' },
-          { text: 'Capítulo 57: Ecos na Lama', link: '/public/capitulos/capitulo-57' },
-          { text: 'Reflexão: Capítulo 57', link: '/reflexoes/reflexao-57' },
-          { text: 'Capítulo 58: O Covil da Ferrugem', link: '/public/capitulos/capitulo-58' },
-          { text: 'Reflexão: Capítulo 58', link: '/reflexoes/reflexao-58' },
-          { text: 'Capítulo 59: O Sangue Frio do Silêncio', link: '/public/capitulos/capitulo-59' },
-          { text: 'Reflexão: Capítulo 59', link: '/reflexoes/reflexao-59' },
-          { text: 'Capítulo 60: O Leilão da Ferrugem', link: '/public/capitulos/capitulo-60' },
-          { text: 'Reflexão: Capítulo 60', link: '/reflexoes/reflexao-60' },
-          { text: 'Capítulo 61: O Fôlego do Mercenário', link: '/public/capitulos/capitulo-61' },
-          { text: 'Reflexão: Capítulo 61', link: '/reflexoes/reflexao-61' },
-          { text: 'Capítulo 62: A Caçada de Silas', link: '/public/capitulos/capitulo-62' },
-          { text: 'Reflexão: Capítulo 62', link: '/reflexoes/reflexao-62' },
-          { text: 'Capítulo 63: Ecos do Rastreador', link: '/public/capitulos/capitulo-63' },
-          { text: 'Reflexão: Capítulo 63', link: '/reflexoes/reflexao-63' },
-          { text: 'Capítulo 64: O Ponto Cego', link: '/public/capitulos/capitulo-64' },
-          { text: 'Reflexão: Capítulo 64', link: '/reflexoes/reflexao-64' },
-          { text: 'Capítulo 65: A Engrenagem Analógica', link: '/public/capitulos/capitulo-65' },
-          { text: 'Reflexão: Capítulo 65', link: '/reflexoes/reflexao-65' },
-          { text: 'Capítulo 66: Ecos do Esgoto', link: '/public/capitulos/capitulo-66' },
-          { text: 'Reflexão: Capítulo 66', link: '/reflexoes/reflexao-66' },
-          { text: 'Capítulo 67: Colapso Analógico', link: '/public/capitulos/capitulo-67' },
-          { text: 'Reflexão: Capítulo 67', link: '/reflexoes/reflexao-67' },
-          { text: 'Capítulo 68: Sob as Ruínas Douradas', link: '/public/capitulos/capitulo-68' },
-          { text: 'Reflexão: Capítulo 68', link: '/reflexoes/reflexao-68' },
-          { text: 'Capítulo 69: Fios Desencapados e Falsas Esperanças', link: '/public/capitulos/capitulo-69' },
-          { text: 'Reflexão: Capítulo 69', link: '/reflexoes/reflexao-69' },
-          { text: 'Capítulo 70: Sangue na Ferrugem', link: '/public/capitulos/capitulo-70' },
-          { text: 'Reflexão: Capítulo 70', link: '/reflexoes/reflexao-70' },
-          { text: 'Capítulo 71: O Peso das Sombras e da Ferrugem', link: '/public/capitulos/capitulo-71' },
-          { text: 'Reflexão: Capítulo 71', link: '/reflexoes/reflexao-71' },
-          { text: 'Capítulo 72: A Margem do Abismo', link: '/public/capitulos/capitulo-72' },
-          { text: 'Reflexão: Capítulo 72', link: '/reflexoes/reflexao-72' },
-          { text: 'Capítulo 73: O Frio do Setor 5', link: '/public/capitulos/capitulo-73' },
-          { text: 'Reflexão: Capítulo 73', link: '/reflexoes/reflexao-73' },
-          { text: 'Capítulo 74: Neve Ácida e Sangue Metálico', link: '/public/capitulos/capitulo-74' },
-          { text: 'Reflexão: Capítulo 74', link: '/reflexoes/reflexao-74' },
-          { text: 'Capítulo 75: Estática e Decadência', link: '/public/capitulos/capitulo-75' },
-          { text: 'Reflexão: Capítulo 75', link: '/reflexoes/reflexao-75' },
-          { text: 'Capítulo 76: Sangue e Solvente', link: '/public/capitulos/capitulo-76' },
-          { text: 'Reflexão: Capítulo 76', link: '/reflexoes/reflexao-76' },
-          { text: 'Capítulo 77: A Fome do Frio', link: '/public/capitulos/capitulo-77' },
-          { text: 'Reflexão: Capítulo 77', link: '/reflexoes/reflexao-77' },
-          { text: 'Capítulo 78: Os Portões de Scrapyard', link: '/public/capitulos/capitulo-78' },
-          { text: 'Reflexão: Capítulo 78', link: '/reflexoes/reflexao-78' },
-          { text: 'Capítulo 79: O Preço da Sucata', link: '/public/capitulos/capitulo-79' },
-          { text: 'Reflexão: Capítulo 79', link: '/reflexoes/reflexao-79' },
-          { text: 'Capítulo 80: O Peso do Chumbo', link: '/public/capitulos/capitulo-80' },
-          { text: 'Reflexão: Capítulo 80', link: '/reflexoes/reflexao-80' },
-          { text: 'Capítulo 81: O Som de Sucata e Ossos', link: '/public/capitulos/capitulo-81' },
-          { text: 'Reflexão: Capítulo 81', link: '/reflexoes/reflexao-81' },
-          { text: 'Capítulo 82: Fio de Corte', link: '/public/capitulos/capitulo-82' },
-          { text: 'Reflexão: Capítulo 82', link: '/reflexoes/reflexao-82' },
-          { text: 'Capítulo 83: Sangue Frio e Escambo', link: '/public/capitulos/capitulo-83' },
-          { text: 'Reflexão: Capítulo 83', link: '/reflexoes/reflexao-83' },
-          { text: 'Capítulo 84: O Custo do Respiro', link: '/public/capitulos/capitulo-84' },
-          { text: 'Reflexão: Capítulo 84', link: '/reflexoes/reflexao-84' },
-          { text: 'Capítulo 85: A Moeda de Carne', link: '/public/capitulos/capitulo-85' },
-          { text: 'Reflexão: Capítulo 85', link: '/reflexoes/reflexao-85' },
-          { text: 'Capítulo 86: O Preço da Nova Carne', link: '/public/capitulos/capitulo-86' },
-          { text: 'Reflexão: Capítulo 86', link: '/reflexoes/reflexao-86' },
-          { text: 'Capítulo 87: Ferrugem e Fantasmas', link: '/public/capitulos/capitulo-87' },
-          { text: 'Reflexão: Capítulo 87', link: '/reflexoes/reflexao-87' },
-          { text: 'Capítulo 88: O Peso da Escória', link: '/public/capitulos/capitulo-88' },
-          { text: 'Reflexão: Capítulo 88', link: '/reflexoes/reflexao-88' },
-          { text: 'Capítulo 89: O Labirinto de Ferrugem', link: '/public/capitulos/capitulo-89' },
-          { text: 'Reflexão: Capítulo 89', link: '/reflexoes/reflexao-89' },
-          { text: 'Capítulo 90: Aranhas e Chaminés', link: '/public/capitulos/capitulo-90' },
-          { text: 'Reflexão: Capítulo 90', link: '/reflexoes/reflexao-90' },
-          { text: 'Capítulo 91: O Fundo do Poço', link: '/public/capitulos/capitulo-91' },
-          { text: 'Reflexão: Capítulo 91', link: '/reflexoes/reflexao-91' },
-          { text: 'Capítulo 92: Gambiarra Sanguínea', link: '/public/capitulos/capitulo-92' },
-          { text: 'Reflexão: Capítulo 92', link: '/reflexoes/reflexao-92' },
-          { text: 'Capítulo 93: Predadores da Ferrugem', link: '/public/capitulos/capitulo-93' },
-          { text: 'Reflexão: Capítulo 93', link: '/reflexoes/reflexao-93' },
-          { text: 'Capítulo 94: O Casco Podre', link: '/public/capitulos/capitulo-94' },
-          { text: 'Reflexão: Capítulo 94', link: '/reflexoes/reflexao-94' },
-          { text: 'Capítulo 95: O Som do Silêncio e da Ferrugem', link: '/public/capitulos/capitulo-95' },
-          { text: 'Reflexão: Capítulo 95', link: '/reflexoes/reflexao-95' },
-          { text: 'Capítulo 96: Tubos de Torpedo e Sangue Frio', link: '/public/capitulos/capitulo-96' },
-          { text: 'Reflexão: Capítulo 96', link: '/reflexoes/reflexao-96' },
-          { text: 'Capítulo 97: Cuspe no Escuro', link: '/public/capitulos/capitulo-97' },
-          { text: 'Reflexão: Capítulo 97', link: '/reflexoes/reflexao-97' },
-          { text: 'Capítulo 98: Afogamento em Ácido', link: '/public/capitulos/capitulo-98' },
-          { text: 'Reflexão: Capítulo 98', link: '/reflexoes/reflexao-98' },
-          { text: 'Capítulo 99: O Sabor da Ferrugem e do Chumbo', link: '/public/capitulos/capitulo-99' },
-          { text: 'Reflexão: Capítulo 99', link: '/reflexoes/reflexao-99' },
-          { text: 'Capítulo 100: Estruturas Ocas', link: '/public/capitulos/capitulo-100' },
-          { text: 'Reflexão: Capítulo 100', link: '/reflexoes/reflexao-100' },
-          { text: "Capítulo 101: O Eco das Máquinas Mortas", link: "/public/capitulos/capitulo-101" },
-          { text: "Reflexão: Capítulo 101", link: "/reflexoes/reflexao-101" },
-          { text: "Capítulo 102: Batismo de Ácido", link: "/public/capitulos/capitulo-102" },
-          { text: "Reflexão: Capítulo 102", link: "/reflexoes/reflexao-102" },
-          { text: "Capítulo 103: Queda Livre", link: "/public/capitulos/capitulo-103" },
-          { text: "Reflexão: Capítulo 103", link: "/reflexoes/reflexao-103" },
-          { text: "Capítulo 104: Forjas do Abismo", link: "/public/capitulos/capitulo-104" },
-          { text: "Reflexão: Capítulo 104", link: "/reflexoes/reflexao-104" },
-          { text: "Capítulo 105: Ecos de Enxofre", link: "/public/capitulos/capitulo-105" },
-                    { text: "Reflexão: Capítulo 105", link: "/reflexoes/reflexao-105" },
-          { text: "Capítulo 106: O Frio de Mentira", link: "/public/capitulos/capitulo-106" },
-          { text: "Reflexão: Capítulo 106", link: "/reflexoes/reflexao-106" },
-          { text: "Capítulo 107: A Névoa Congelada", link: "/public/capitulos/capitulo-107" },
-          { text: "Reflexão: Capítulo 107", link: "/reflexoes/reflexao-107" },
-          { text: "Capítulo 108: A Mecânica da Fome", link: "/public/capitulos/capitulo-108" },
-          { text: "Reflexão: Capítulo 108", link: "/reflexoes/reflexao-108" },
-          { text: "Capítulo 109: Fagulha Analógica", link: "/public/capitulos/capitulo-109" },
-          { text: "Reflexão: Capítulo 109", link: "/reflexoes/reflexao-109" },
-          { text: "Capítulo 110: A Dança do Fio de Aço", link: "/public/capitulos/capitulo-110" },
-          { text: "Reflexão: Capítulo 110", link: "/reflexoes/reflexao-110" },
-          { text: "Capítulo 111: Fogo e Ferrugem", link: "/public/capitulos/capitulo-111" },
-          { text: "Reflexão: Capítulo 111", link: "/reflexoes/reflexao-111" },
-          { text: "Capítulo 112: Escória Incandescente", link: "/public/capitulos/capitulo-112" },
-          { text: "Reflexão: Capítulo 112", link: "/reflexoes/reflexao-112" },
-          { text: "Capítulo 113: O Respiro no Escuro", link: "/public/capitulos/capitulo-113" },
-          { text: "Reflexão: Capítulo 113", link: "/reflexoes/reflexao-113" },
-          { text: "Capítulo 114: Suturas na Escuridão", link: "/public/capitulos/capitulo-114" },
-          { text: "Reflexão: Capítulo 114", link: "/reflexoes/reflexao-114" },
-          { text: "Capítulo 115: Rastejando na Ferrugem", link: "/public/capitulos/capitulo-115" },
-          { text: "Reflexão: Capítulo 115", link: "/reflexoes/reflexao-115" },
-          { text: "Capítulo 116: Queda no Vazio", link: "/public/capitulos/capitulo-116" },
-          { text: "Reflexão: Capítulo 116", link: "/reflexoes/reflexao-116" },
-          { text: "Capítulo 117: Maré de Óleo e Sangue", link: "/public/capitulos/capitulo-117" },
-          { text: "Reflexão: Capítulo 117", link: "/reflexoes/reflexao-117" },
-          { text: "Capítulo 118: Cinzas no Pulmão", link: "/public/capitulos/capitulo-118" },
-          { text: "Reflexão: Capítulo 118", link: "/reflexoes/reflexao-118" },
-          { text: "Capítulo 119: Protocolo de Purga", link: "/public/capitulos/capitulo-119" },
-          { text: "Reflexão: Capítulo 119", link: "/reflexoes/reflexao-119" },
-          { text: "Capítulo 120: Queda Controlada", link: "/public/capitulos/capitulo-120" },
-          { text: "Reflexão: Capítulo 120", link: "/reflexoes/reflexao-120" },
-          { text: "Capítulo 121: Fundo do Poço", link: "/public/capitulos/capitulo-121" },
-          { text: "Reflexão: Capítulo 121", link: "/reflexoes/reflexao-121" },
-          { text: "Capítulo 122: Ferrugem e Dentes", link: "/public/capitulos/capitulo-122" },
-          { text: "Reflexão: Capítulo 122", link: "/reflexoes/reflexao-122" },
-          { text: 'Personagens', link: '/personagens' },
-          { text: 'Sobre o Universo', link: '/sobre' }
-        ]
+    sidebar,
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: { buttonText: 'Texto integral', buttonAriaLabel: 'Buscar no texto integral' },
+          modal: {
+            noResultsText: 'Nada encontrado no poço para',
+            resetButtonTitle: 'Limpar busca',
+            displayDetails: 'Mostrar detalhes',
+            footer: { selectText: 'abrir', navigateText: 'navegar', closeText: 'fechar' }
+          }
+        }
       }
-    ],
+    },
+    outline: { label: 'Nesta página' },
+    docFooter: { prev: 'Anterior', next: 'Próximo' },
+    darkModeSwitchLabel: 'Aparência',
+    lightModeSwitchTitle: 'Mudar para o tema claro',
+    darkModeSwitchTitle: 'Mudar para o tema escuro',
+    sidebarMenuLabel: 'Menu',
+    returnToTopLabel: 'Voltar ao topo',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/juninmd/o-canto-de-silicio' }
     ]

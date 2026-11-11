@@ -1,5 +1,11 @@
 # Sobre o Universo de O Canto de Silício
 
+## Atlas Estratigráfico
+
+Nova Aether em corte vertical, da órbita ao fundo do poço. Cada camada conta os capítulos que se passam nela, pela localização registrada em cada capítulo. O ponto âmbar marca onde Elara e Jaxon estão agora.
+
+<AtlasEstratos />
+
 ## A Estação Orbital Éden
 
 ![Estação Orbital Éden](./static/midia/estacao_eden.jpg)
