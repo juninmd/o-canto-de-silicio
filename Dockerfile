@@ -6,11 +6,7 @@ RUN npm ci
 COPY . .
 RUN npm run docs:build
 
-# Stage 2: Serve (unprivileged nginx, sem root)
+# Stage 2: Serve (nginx-unprivileged já roda como UID 101, sem root)
 FROM nginxinc/nginx-unprivileged:alpine
 COPY --from=builder /app/docs/.vitepress/dist /usr/share/nginx/html
 EXPOSE 8080
-
-# executa app sem privilegio (DS-0002)
-RUN addgroup -g 10001 app && adduser -u 10001 -G app -s /bin/sh -D app
-USER app
