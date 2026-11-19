@@ -103,6 +103,7 @@ flowchart LR
 ```
 
 - O `base` do VitePress é `/o-canto-de-silicio/`, por isso o site fica sob esse caminho.
+- O `build.yml` roda `npm run docs:build` em todo PR, para barrar erro de build antes do merge.
 - O `deploy.yml` constrói a imagem Docker e publica no GHCR a cada push em `master` ou `main`.
 
 ---
@@ -112,6 +113,7 @@ flowchart LR
 O livro conta com interface web moderna e tema dark imersivo, gerados pelo VitePress.
 
 ```bash
+# Requer Node.js 22 (versão usada no CI, no Pages e na imagem Docker)
 # Clone o repositório
 git clone git@github.com:juninmd/o-canto-de-silicio.git
 
