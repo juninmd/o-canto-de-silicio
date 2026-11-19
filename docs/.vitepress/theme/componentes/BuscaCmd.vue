@@ -136,14 +136,15 @@ const grupoNovo = (i) => i === 0 || itens.value[i - 1].g !== itens.value[i].g
       <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="2" /><path d="m15 15 6 6" stroke="currentColor" stroke-width="2" /></svg>
       <input
         ref="campo" v-model="q" type="text" placeholder="Capítulo, trecho, personagem, lugar ou ação…"
-        autocomplete="off" aria-label="Buscar" role="combobox" aria-expanded="true" aria-controls="cmd-lista" @keydown="teclasCampo"
+        autocomplete="off" aria-label="Buscar" role="combobox" aria-expanded="true" aria-controls="cmd-lista"
+        aria-autocomplete="list" :aria-activedescendant="itens.length ? `cmd-op-${ativo}` : undefined" @keydown="teclasCampo"
       >
       <kbd class="cds-kbd">Esc</kbd>
     </div>
-    <div id="cmd-lista" class="res" role="listbox">
+    <div id="cmd-lista" class="res" role="listbox" aria-label="Resultados">
       <template v-for="(it, i) in itens" :key="i">
         <div v-if="grupoNovo(i)" class="grp">{{ it.g }}</div>
-        <button type="button" class="it" :class="{ ativo: i === ativo }" role="option" :aria-selected="i === ativo" @mousemove="ativo = i" @click="it.run()">
+        <button :id="`cmd-op-${i}`" type="button" tabindex="-1" class="it" :class="{ ativo: i === ativo }" role="option" :aria-selected="i === ativo" @mousemove="ativo = i" @click="it.run()">
           <span class="k">{{ it.k }}</span>
           <span class="tx"><span v-html="it.t" /><span v-if="it.s" class="s">{{ it.s }}</span></span>
           <span class="k">{{ i === ativo ? '↵' : '' }}</span>
