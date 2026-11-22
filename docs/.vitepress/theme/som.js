@@ -3,10 +3,12 @@
 let ctx = null
 let mestre = null
 let timerGota = null
+let fontes = []
 
 export function ligarSom() {
   const AC = window.AudioContext || window.webkitAudioContext
   if (!AC) return false
+  if (mestre) return true
   ctx = ctx || new AC()
   ctx.resume()
   mestre = ctx.createGain()
@@ -36,6 +38,7 @@ export function ligarSom() {
   gz.gain.value = 0.05
   zumbido.connect(gz).connect(mestre)
   zumbido.start()
+  fontes = [ruido, zumbido]
 
   mestre.gain.linearRampToValueAtTime(0.55, ctx.currentTime + 2)
 
@@ -61,7 +64,13 @@ export function desligarSom() {
   clearTimeout(timerGota)
   if (!mestre || !ctx) return
   const m = mestre
+  const tocando = fontes
   mestre = null
+  fontes = []
   m.gain.linearRampToValueAtTime(0, ctx.currentTime + 0.6)
-  setTimeout(() => m.disconnect(), 700)
+  // Desconectar só o mestre deixava o ruído em loop e o zumbido rodando a cada liga/desliga.
+  setTimeout(() => {
+    for (const f of tocando) f.stop()
+    m.disconnect()
+  }, 700)
 }
